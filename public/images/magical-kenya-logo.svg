@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 215 60" fill="none">
+  <!-- Magical Kenya Acacia & Sun Emblem (Plain, No Outer Box or Border) -->
+  <g transform="translate(4, 5)">
+    <circle cx="25" cy="25" r="22" fill="#134E32"/>
+    <circle cx="25" cy="22" r="10" fill="#E05A2B"/>
+    <circle cx="25" cy="22" r="7" fill="#F2A93B"/>
+    <path d="M12 31C16 27 34 27 38 31" stroke="#062818" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M16 25C20 22 30 22 34 25" stroke="#062818" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M25 25V37" stroke="#062818" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M22 29L25 32L28 28" stroke="#062818" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M11 37H39" stroke="#C89B3C" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <!-- Typography -->
+  <text x="60" y="19" fill="#E0B85A" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="13.5" font-weight="bold" letter-spacing="0.06em">Magical</text>
+  <text x="59" y="40" fill="#FAF6EE" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="900" letter-spacing="0.12em">KENYA</text>
+  <text x="60" y="52" fill="#D5CBB8" font-family="Arial, Helvetica, sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.18em">DESTINATION PARTNER</text>
+</svg>

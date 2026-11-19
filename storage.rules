@@ -1,0 +1,40 @@
+rules_version = '2';
+
+service firebase.storage {
+  match /b/{bucket}/o {
+
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isValidImageUpload() {
+      return request.resource != null &&
+        request.resource.size < 15 * 1024 * 1024 &&
+        request.resource.contentType.matches('image/.*');
+    }
+
+    // Official KayArabuko & Kaya Experience Ltd Brand Logos (Authenticated Admin Write Only)
+    match /kayarabuko_logo/{allPaths=**} {
+      allow read: if true;
+      allow write: if isAuthenticated() && isValidImageUpload();
+    }
+
+    // Website Section Photography & Posters (Authenticated Admin Write Only)
+    match /kayarabuko_website/{allPaths=**} {
+      allow read: if true;
+      allow write: if isAuthenticated() && isValidImageUpload();
+    }
+
+    // Organization-scoped media assets (Authenticated Admin Write Only)
+    match /organizations/{orgId}/{allPaths=**} {
+      allow read: if true;
+      allow write: if isAuthenticated() && isValidImageUpload();
+    }
+
+    // Default fallback for public website assets
+    match /{allPaths=**} {
+      allow read: if true;
+      allow write: if isAuthenticated() && isValidImageUpload();
+    }
+  }
+}

@@ -1,0 +1,239 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // =========================================================================
+    // HELPER FUNCTIONS
+    // =========================================================================
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isUser(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    function hasOrgUserDoc(orgId) {
+      return isAuthenticated() &&
+        exists(/databases/$(database)/documents/organizations/$(orgId)/users/$(request.auth.uid));
+    }
+
+    function getOrgUser(orgId) {
+      return get(/databases/$(database)/documents/organizations/$(orgId)/users/$(request.auth.uid)).data;
+    }
+
+    function hasOrgRole(orgId, roles) {
+      return hasOrgUserDoc(orgId) && getOrgUser(orgId).role in roles;
+    }
+
+    // Allows authenticated Firebase Auth admins OR role-assigned organization admins
+    function isAdmin(orgId) {
+      return isAuthenticated() && (
+        !hasOrgUserDoc(orgId) ||
+        hasOrgRole(orgId, ['super_admin', 'administrator'])
+      );
+    }
+
+    function isStaff(orgId) {
+      return isAuthenticated() && (
+        !hasOrgUserDoc(orgId) ||
+        hasOrgRole(orgId, [
+          'super_admin',
+          'administrator',
+          'operations_manager',
+          'sales_agent',
+          'finance',
+          'content_manager'
+        ])
+      );
+    }
+
+    // Ensures valid visitor enquiry payload on public submission
+    function isValidLeadPayload() {
+      return request.resource.data.keys().hasAll(['name', 'email']) &&
+        request.resource.data.name is string &&
+        request.resource.data.name.size() >= 2 &&
+        request.resource.data.name.size() <= 150 &&
+        request.resource.data.email is string &&
+        request.resource.data.email.size() >= 3 &&
+        request.resource.data.email.size() <= 180;
+    }
+
+    // =========================================================================
+    // ORGANIZATION ROOT & SUBCOLLECTIONS
+    // =========================================================================
+    match /organizations/{orgId} {
+      allow read: if true;
+      allow write: if isAdmin(orgId);
+
+      // Organization users & roles
+      match /users/{userId} {
+        allow read: if isUser(userId) || isStaff(orgId);
+        allow create, update, delete: if isAdmin(orgId);
+      }
+
+      // Platform, Brand, Visual Content & Website Image Settings (platform, brand, siteImages, visualContent, posters, activityGallery)
+      match /settings/{settingId} {
+        allow read: if true;
+        allow write: if isStaff(orgId);
+      }
+
+      // Section 04: Cultural Communities (Maasai, Samburu, Turkana, Mijikenda, Swahili)
+      match /communities/{communityId} {
+        allow read: if true;
+        allow write: if isStaff(orgId);
+      }
+
+      // Section 06: Explore Kenya Regions (Coast, Aberdares, Northern, Rift Valley)
+      match /regions/{regionId} {
+        allow read: if true;
+        allow write: if isStaff(orgId);
+      }
+
+      // Section 07: Visits & Experiences (Enquiry-based categories)
+      match /visitExperiences/{expId} {
+        allow read: if true;
+        allow write: if isStaff(orgId);
+      }
+
+      match /experiences/{expId} {
+        allow read: if true;
+        allow write: if isStaff(orgId);
+      }
+
+      // Multi-Day Safari Packages, Excursions & Transfers
+      match /safariPackages/{pkgId} {
+        allow read: if true;
+        allow write: if isStaff(orgId);
+      }
+
+      match /excursions/{excursionId} {
+        allow read: if true;
+        allow write: if isStaff(orgId);
+      }
+
+      match /transfers/{transferId} {
+        allow read: if true;
+        allow write: if isStaff(orgId);
+      }
+
+      match /team/{memberId} {
+        allow read: if true;
+        allow write: if isStaff(orgId);
+      }
+
+      match /posters/{posterId} {
+        allow read: if true;
+        allow write: if isStaff(orgId);
+      }
+
+      match /activityGallery/{itemId} {
+        allow read: if true;
+        allow write: if isStaff(orgId);
+      }
+
+      // Section 08: Stories & Insights CMS
+      match /stories/{storyId} {
+        allow read: if true;
+        allow write: if isStaff(orgId);
+      }
+
+      // Quick-Edit Media & Photography Gallery
+      match /gallery/{imageId} {
+        allow read: if true;
+        allow write: if isStaff(orgId);
+      }
+
+      // Section 10: Visitor Contacts & Experience Enquiries (Public create only; staff read/update/delete)
+      match /leads/{leadId} {
+        allow create: if isValidLeadPayload();
+        allow read, update, delete: if isStaff(orgId);
+      }
+
+      // Additional Public Catalogues
+      match /safaris/{safariId} {
+        allow read: if true;
+        allow write: if isStaff(orgId);
+      }
+
+      match /destinations/{destId} {
+        allow read: if true;
+        allow write: if isStaff(orgId);
+      }
+
+      match /counties/{countyId} {
+        allow read: if true;
+        allow write: if isStaff(orgId);
+      }
+
+      // Customer Reviews
+      match /reviews/{reviewId} {
+        allow read: if resource.data.status == 'approved' || isStaff(orgId);
+        allow create: if isAuthenticated();
+        allow update, delete: if isStaff(orgId);
+      }
+
+      // Bookings
+      match /bookings/{bookingId} {
+        allow read: if isAuthenticated() && (
+          resource.data.customerId == request.auth.uid || isStaff(orgId)
+        );
+        allow create: if isAuthenticated() &&
+          request.resource.data.customerId == request.auth.uid &&
+          (request.resource.data.status == 'inquiry' || request.resource.data.status == 'pending');
+        allow update: if isStaff(orgId) || (
+          isAuthenticated() &&
+          resource.data.customerId == request.auth.uid &&
+          request.resource.data.diff(resource.data).affectedKeys()
+            .hasOnly(['specialRequests', 'emergencyContact', 'pickupLocation'])
+        );
+        allow delete: if isAdmin(orgId);
+      }
+
+      // Payments
+      match /payments/{paymentId} {
+        allow read: if isAuthenticated() && (
+          resource.data.customerId == request.auth.uid ||
+          hasOrgRole(orgId, ['super_admin', 'administrator', 'finance'])
+        );
+        allow write: if hasOrgRole(orgId, ['super_admin', 'administrator', 'finance']);
+      }
+
+      // Operations: vehicles, guides, accommodation
+      match /vehicles/{vehicleId} {
+        allow read: if isStaff(orgId);
+        allow write: if hasOrgRole(orgId, ['super_admin', 'administrator', 'operations_manager']);
+      }
+
+      match /guides/{guideId} {
+        allow read: if isStaff(orgId) || isUser(guideId);
+        allow write: if hasOrgRole(orgId, ['super_admin', 'administrator', 'operations_manager']);
+      }
+
+      match /accommodations/{accId} {
+        allow read: if true;
+        allow write: if isStaff(orgId);
+      }
+
+      // Quotations / Custom proposals
+      match /quotations/{quotationId} {
+        allow read: if isStaff(orgId) || (
+          isAuthenticated() && resource.data.customerId == request.auth.uid
+        ) || resource.data.accessKey == request.auth.uid;
+        allow write: if isStaff(orgId);
+      }
+
+      // Promotions & Notifications
+      match /promotions/{promoId} {
+        allow read: if true;
+        allow write: if isStaff(orgId);
+      }
+
+      match /notifications/{notifId} {
+        allow read: if isAuthenticated() && resource.data.recipientId == request.auth.uid;
+        allow write: if isStaff(orgId);
+      }
+    }
+  }
+}

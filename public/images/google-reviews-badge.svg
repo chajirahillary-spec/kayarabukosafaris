@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 60" fill="none">
+  <!-- Google "G" Emblem (Plain, No Outer Box or Border) -->
+  <g transform="translate(4, 8)">
+    <circle cx="22" cy="22" r="20" fill="#FAF6EE"/>
+    <path d="M33.6 22.3C33.6 21.4 33.5 20.6 33.4 19.8H22V24.5H28.5C28.2 26.1 27.3 27.4 26 28.3V31.4H29.9C32.2 29.3 33.6 26.1 33.6 22.3Z" fill="#4285F4"/>
+    <path d="M22 34C25.2 34 28 32.9 29.9 31.1L26 28.1C24.9 28.8 23.6 29.3 22 29.3C18.9 29.3 16.2 27.2 15.3 24.3H11.3V27.4C13.3 31.3 17.3 34 22 34Z" fill="#34A853"/>
+    <path d="M15.3 24.3C15.1 23.6 14.9 22.8 14.9 22C14.9 21.2 15.1 20.4 15.3 19.7V16.6H11.3C10.5 18.2 10 20.1 10 22C10 23.9 10.5 25.8 11.3 27.4L15.3 24.3Z" fill="#FBBC05"/>
+    <path d="M22 14.7C23.8 14.7 25.3 15.3 26.6 16.5L30 13.1C27.9 11.2 25.2 10 22 10C17.3 10 13.3 12.7 11.3 16.6L15.3 19.7C16.2 16.8 18.9 14.7 22 14.7Z" fill="#EA4335"/>
+  </g>
+  <!-- Typography & 5 Gold Stars -->
+  <text x="56" y="21" fill="#FAF6EE" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="900" letter-spacing="0.04em">Google Reviews</text>
+  <text x="56" y="38" fill="#FBBF24" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="900" letter-spacing="0.1em">★★★★★</text>
+  <text x="140" y="37" fill="#E0B85A" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="800">4.9 / 5</text>
+  <text x="56" y="51" fill="#D5CBB8" font-family="Arial, Helvetica, sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.13em">VERIFIED GUEST RATINGS</text>
+</svg>

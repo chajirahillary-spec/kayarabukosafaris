@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 96" fill="none">
+  <!-- Outer Gold Medallion Ring -->
+  <circle cx="48" cy="48" r="42" stroke="#E5B95C" stroke-width="2.5" fill="#0B5D3B"/>
+  <circle cx="48" cy="48" r="36" stroke="#E5B95C" stroke-width="1" stroke-dasharray="3 3" fill="none"/>
+  <!-- Sacred Kaya Forest Canopy & Roots Motif -->
+  <path d="M48 20C36 20 27 29 27 40C27 48 33 54 41 56L41 68L33 72M48 20C60 20 69 29 69 40C69 48 63 54 55 56L55 68L63 72M48 20V74" stroke="#E5B95C" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="48" cy="37" r="10" fill="#E5B95C" fill-opacity="0.25" stroke="#E5B95C" stroke-width="1.5"/>
+  <!-- Wordmark -->
+  <text x="104" y="42" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="bold" fill="#FBF8F1" letter-spacing="1.5">KAYA EXPERIENCE</text>
+  <text x="105" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="700" fill="#E5B95C" letter-spacing="3.5">LIMITED · WATAMU, KENYA</text>
+  <line x1="104" y1="70" x2="335" y2="70" stroke="#E5B95C" stroke-width="1" stroke-opacity="0.45"/>
+  <text x="105" y="83" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" font-weight="600" fill="#F2EAD8" letter-spacing="2">CULTURE · CONSERVATION · EMPOWERMENT</text>
+</svg>

@@ -1,0 +1,351 @@
+@import "tailwindcss";
+
+:root {
+  --ka-green: #0b4b2e;
+  --ka-forest: #063b25;
+  --ka-gold: #c7942d;
+  --ka-gold-light: #e2c477;
+  --ka-cream: #f6e4c8;
+  --ka-ivory: #fff9ee;
+  --ka-charcoal: #1f2a24;
+}
+
+@theme inline {
+  --color-green: var(--ka-green);
+  --color-forest: var(--ka-forest);
+  --color-gold: var(--ka-gold);
+  --color-gold-light: var(--ka-gold-light);
+  --color-cream: var(--ka-cream);
+  --color-ivory: var(--ka-ivory);
+  --color-charcoal: var(--ka-charcoal);
+  --font-serif: var(--font-cormorant), "Cormorant Garamond", Georgia, serif;
+  --font-sans: var(--font-manrope), "Manrope", system-ui, sans-serif;
+  --radius-ka: 3px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--ka-ivory);
+  color: var(--ka-charcoal);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+.font-display {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+:focus-visible {
+  outline: 2px solid var(--ka-gold);
+  outline-offset: 3px;
+}
+
+::selection {
+  background: var(--ka-gold-light);
+  color: var(--ka-forest);
+}
+
+/* Subtle geometric band used in the footer and separators only. */
+.ka-pattern {
+  background-color: var(--ka-forest);
+  background-image:
+    linear-gradient(45deg, var(--ka-gold) 25%, transparent 25%),
+    linear-gradient(-45deg, var(--ka-gold) 25%, transparent 25%);
+  background-size: 24px 24px;
+  background-position: 0 0, 0 0;
+  opacity: 0.9;
+}
+
+.ka-diamonds {
+  height: 12px;
+  background-image: repeating-linear-gradient(
+    135deg,
+    var(--ka-gold) 0 6px,
+    transparent 6px 12px
+  );
+  opacity: 0.55;
+}
+
+/* ============================================================================
+   EDITORIAL ANIMATIONS & MICRO-INTERACTIONS
+============================================================================ */
+
+@keyframes ka-hero-fade-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 26px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes ka-hero-slide-right {
+  from {
+    opacity: 0;
+    transform: translate3d(-16px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes ka-hero-line-draw {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes ka-hero-float {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, 6px, 0);
+  }
+}
+
+@keyframes ka-slide-progress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes ka-panel-enter {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 14px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes ka-modal-enter {
+  from {
+    opacity: 0;
+    transform: scale(0.96) translate3d(0, 12px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translate3d(0, 0, 0);
+  }
+}
+
+.animate-hero-fade-up {
+  opacity: 0;
+  animation: ka-hero-fade-up 850ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.animate-hero-slide-right {
+  opacity: 0;
+  animation: ka-hero-slide-right 750ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.animate-hero-line-draw {
+  transform-origin: top;
+  transform: scaleY(0);
+  animation: ka-hero-line-draw 700ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.animate-hero-float {
+  animation: ka-hero-float 2.4s ease-in-out infinite;
+}
+
+.animate-panel-enter {
+  animation: ka-panel-enter 520ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.animate-modal-enter {
+  animation: ka-modal-enter 320ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* Tactile Editorial Card Hover Effect with Specular Gold Border Glow */
+.ka-card-hover {
+  position: relative;
+  transition:
+    transform 420ms cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 420ms cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 320ms ease,
+    opacity 320ms ease,
+    filter 320ms ease;
+}
+
+.ka-card-hover::after {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #c89b3c 0%, #e0b85a 50%, #c89b3c 100%);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 450ms cubic-bezier(0.22, 1, 0.36, 1);
+  z-index: 20;
+}
+
+.ka-card-hover:hover {
+  transform: translate3d(0, -6px, 0);
+  box-shadow:
+    0 22px 44px -12px rgba(6, 59, 37, 0.18),
+    0 0 0 1px rgba(200, 155, 60, 0.38);
+}
+
+.ka-card-hover:hover::after {
+  transform: scaleX(1);
+}
+
+/* Desktop Sibling Focus Dimming on Card Grids */
+@media (min-width: 1024px) {
+  .ka-focus-grid:hover .ka-card-hover:not(:hover) {
+    opacity: 0.86;
+    filter: saturate(0.92);
+  }
+}
+
+/* Subtle East African Topographic Contour Watermark */
+.ka-topo-bg {
+  background-image: radial-gradient(
+      circle at 15% 20%,
+      rgba(200, 155, 60, 0.07) 0%,
+      transparent 45%
+    ),
+    radial-gradient(
+      circle at 85% 80%,
+      rgba(11, 75, 46, 0.05) 0%,
+      transparent 50%
+    ),
+    repeating-radial-gradient(
+      circle at 0% 50%,
+      transparent 0,
+      transparent 38px,
+      rgba(200, 155, 60, 0.035) 39px,
+      transparent 40px
+    );
+}
+
+.ka-topo-dark-bg {
+  background-color: #063b25;
+  background-image: radial-gradient(
+      circle at 20% 15%,
+      rgba(200, 155, 60, 0.14) 0%,
+      transparent 45%
+    ),
+    repeating-radial-gradient(
+      circle at 100% 30%,
+      transparent 0,
+      transparent 44px,
+      rgba(224, 184, 90, 0.045) 45px,
+      transparent 46px
+    );
+}
+
+/* Mobile-First Horizontal Touch Snap-Carousel (< 640px), Multi-Column Grid on sm+ */
+@media (max-width: 639px) {
+  .ka-mobile-carousel {
+    display: flex !important;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    gap: 1rem;
+    padding-bottom: 0.5rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .ka-mobile-carousel::-webkit-scrollbar {
+    display: none;
+  }
+  .ka-mobile-carousel > * {
+    flex: 0 0 85vw;
+    max-width: 85vw;
+    scroll-snap-align: center;
+  }
+}
+
+/* Warm Image Loading Shimmer Skeleton */
+@keyframes ka-shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.ka-img-shimmer {
+  background: linear-gradient(
+    90deg,
+    rgba(11, 75, 46, 0.85) 25%,
+    rgba(200, 155, 60, 0.22) 50%,
+    rgba(11, 75, 46, 0.85) 75%
+  );
+  background-size: 200% 100%;
+  animation: ka-shimmer 2.2s infinite linear;
+}
+
+/* Horizontal Auto-Scrolling Guest Reviews Carousel */
+@keyframes ka-reviews-marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.animate-reviews-marquee {
+  display: flex;
+  width: max-content;
+  animation: ka-reviews-marquee 48s linear infinite;
+}
+
+.animate-reviews-marquee:hover {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .animate-hero-fade-up,
+  .animate-hero-slide-right,
+  .animate-panel-enter,
+  .animate-modal-enter {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  .animate-hero-line-draw {
+    transform: scaleY(1) !important;
+  }
+}

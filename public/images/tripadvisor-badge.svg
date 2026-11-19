@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 60" fill="none">
+  <!-- TripAdvisor Owl Emblem (Plain, No Outer Box or Border) -->
+  <g transform="translate(4, 6)">
+    <circle cx="24" cy="24" r="21" fill="#34E0A1"/>
+    <path d="M10 21C13 16 35 16 38 21" stroke="#062818" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="17" cy="25" r="6.5" fill="#FAF6EE" stroke="#062818" stroke-width="2"/>
+    <circle cx="31" cy="25" r="6.5" fill="#FAF6EE" stroke="#062818" stroke-width="2"/>
+    <circle cx="17" cy="25" r="2.6" fill="#062818"/>
+    <circle cx="31" cy="25" r="2.6" fill="#062818"/>
+    <path d="M21.5 31L24 35.5L26.5 31H21.5Z" fill="#062818"/>
+  </g>
+  <!-- Typography & 5 Rating Bubbles -->
+  <text x="58" y="21" fill="#FAF6EE" font-family="Arial, Helvetica, sans-serif" font-size="14.5" font-weight="900" letter-spacing="0.04em">Tripadvisor</text>
+  <g transform="translate(58, 27)">
+    <circle cx="6" cy="6" r="5" fill="#34E0A1"/>
+    <circle cx="19" cy="6" r="5" fill="#34E0A1"/>
+    <circle cx="32" cy="6" r="5" fill="#34E0A1"/>
+    <circle cx="45" cy="6" r="5" fill="#34E0A1"/>
+    <circle cx="58" cy="6" r="5" fill="#34E0A1"/>
+    <text x="70" y="10" fill="#E0B85A" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="800">5.0 / 5</text>
+  </g>
+  <text x="58" y="51" fill="#D5CBB8" font-family="Arial, Helvetica, sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.13em">TRAVELLERS' CHOICE EXCELLENCE</text>
+</svg>

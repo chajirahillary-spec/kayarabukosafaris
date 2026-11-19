@@ -1,0 +1,1006 @@
+{
+  "settings": {
+    "brand": {
+      "updatedAt": "2026-11-11T23:29:03.186Z",
+      "statement": "Not just a destination... but a story.",
+      "companyName": "KayArabuko Safaris",
+      "logoStoragePath": "brand/logo.png",
+      "logoUrl": "/images/kayarabuko-logo-transparent.png",
+      "logoDarkUrl": "/images/kayarabuko-logo-light.png",
+      "tagline": "Explore. Conserve. Empower.",
+      "heroBannerUrl": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/hero_image%2FBeautifu.jpg?alt=media&token=c5281d6a-eef9-4a72-bec2-b2df9becb30f",
+      "supporting": "Story tellers and custodians of our African cultures."
+    },
+    "platform": {
+      "orgId": "kayarabuko-safaris",
+      "officeAddress": "Pride Center, 3rd Floor, Westlands Road, Nairobi, Kenya",
+      "stripeConfigured": true,
+      "mpesaType": "Paybill",
+      "googleAnalyticsId": "G-NVN0PP8Q1P",
+      "brandStatement": "Not just a destination... but a story.",
+      "updatedAt": "2026-10-06T06:55:11.531Z",
+      "useStorageLogo": true,
+      "logoStorageUrl": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_logo%2Ffe1c982e-1803-48f6-999e-8bca8b906167.png?alt=media&token=0fc9b362-5f16-4ab7-8ed8-a6c3e216c828",
+      "defaultDepositPercent": 30,
+      "mpesaShortcode": "174379",
+      "coastalBranch": "Watamu Beach Road, Kilifi County, Kenya",
+      "katoLicense": "KATO/FE/582",
+      "supportingStatement": "Story tellers and custodians of our African cultures.",
+      "reservationsEmail": "bookings@kayarabuko.com",
+      "emergencyPhone": "+254 711 000 000",
+      "tagline": "Explore. Conserve. Empower.",
+      "primaryPhone": "+254 700 000 000",
+      "email": "safaris@kayarabuko.com",
+      "companyName": "KayArabuko Safaris",
+      "traLicense": "TRA/TC/2026/0914",
+      "usdToKesRate": 130
+    },
+    "posters": {
+      "postersJson": "[{\"id\":\"poster-1794497573756-0\",\"title\":\"3c39e132 7aff 4351 821e 325a45123ae2\",\"subtitle\":\"Managed by Kaya Experience Ltd · Watamu, Timboni Stage\",\"category\":\"Excursions\",\"dateLabel\":\"Published Poster\",\"description\":\"Official poster published by KayArabuko / Kaya Experience Ltd. Contacts: 0728 560303 / 0712 863538.\",\"image\":{\"src\":\"https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fposter.poster-1794497573756-0_1794497573806_3c39e132-7aff-4351-821e-325a45123ae2.jpg?alt=media&token=c8c9ea1e-2151-4b5b-a649-195aca679966\",\"alt\":\"3c39e132 7aff 4351 821e 325a45123ae2\"}},{\"id\":\"poster-1794497576525-1\",\"title\":\"5eec089f D205 4abf 813d 79429a6df9c0\",\"subtitle\":\"Managed by Kaya Experience Ltd · Watamu, Timboni Stage\",\"category\":\"Excursions\",\"dateLabel\":\"Published Poster\",\"description\":\"Official poster published by KayArabuko / Kaya Experience Ltd. Contacts: 0728 560303 / 0712 863538.\",\"image\":{\"src\":\"https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fposter.poster-1794497576525-1_1794497576599_5eec089f-d205-4abf-813d-79429a6df9c0.jpg?alt=media&token=b78ff822-f949-4f8d-94d5-ffca76285f68\",\"alt\":\"5eec089f D205 4abf 813d 79429a6df9c0\"}},{\"id\":\"poster-1794497578983-2\",\"title\":\"7bcf743e 2f17 4c0b Ba3e 478e755f7252\",\"subtitle\":\"Managed by Kaya Experience Ltd · Watamu, Timboni Stage\",\"category\":\"Excursions\",\"dateLabel\":\"Published Poster\",\"description\":\"Official poster published by KayArabuko / Kaya Experience Ltd. Contacts: 0728 560303 / 0712 863538.\",\"image\":{\"src\":\"https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fposter.poster-1794497578983-2_1794497580449_7bcf743e-2f17-4c0b-ba3e-478e755f7252.jpg?alt=media&token=1313acd1-8fc4-4771-ab37-58073650fc44\",\"alt\":\"7bcf743e 2f17 4c0b Ba3e 478e755f7252\"}},{\"id\":\"poster-1794497582607-3\",\"title\":\"7e6aa0e6 2c93 4e9d B247 0a5c68ca07c2\",\"subtitle\":\"Managed by Kaya Experience Ltd · Watamu, Timboni Stage\",\"category\":\"Excursions\",\"dateLabel\":\"Published Poster\",\"description\":\"Official poster published by KayArabuko / Kaya Experience Ltd. Contacts: 0728 560303 / 0712 863538.\",\"image\":{\"src\":\"https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fposter.poster-1794497582607-3_1794497582953_7e6aa0e6-2c93-4e9d-b247-0a5c68ca07c2.jpg?alt=media&token=7be4010f-a286-414d-8a34-16ed9145f4dc\",\"alt\":\"7e6aa0e6 2c93 4e9d B247 0a5c68ca07c2\"}},{\"id\":\"poster-1794497584250-4\",\"title\":\"08f1af60 40bf 4622 8205 Aa378d37644c\",\"subtitle\":\"Managed by Kaya Experience Ltd · Watamu, Timboni Stage\",\"category\":\"Excursions\",\"dateLabel\":\"Published Poster\",\"description\":\"Official poster published by KayArabuko / Kaya Experience Ltd. Contacts: 0728 560303 / 0712 863538.\",\"image\":{\"src\":\"https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fposter.poster-1794497584250-4_1794497584483_08f1af60-40bf-4622-8205-aa378d37644c.jpg?alt=media&token=e6a0fd05-c1a9-498a-bdcb-64713298ce78\",\"alt\":\"08f1af60 40bf 4622 8205 Aa378d37644c\"}},{\"id\":\"poster-1794497585831-5\",\"title\":\"405e2d04 Bbf3 4fec 842d 38932d075573\",\"subtitle\":\"Managed by Kaya Experience Ltd · Watamu, Timboni Stage\",\"category\":\"Excursions\",\"dateLabel\":\"Published Poster\",\"description\":\"Official poster published by KayArabuko / Kaya Experience Ltd. Contacts: 0728 560303 / 0712 863538.\",\"image\":{\"src\":\"https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fposter.poster-1794497585831-5_1794497586049_405e2d04-bbf3-4fec-842d-38932d075573.jpg?alt=media&token=8d77644c-2920-4189-8428-b2e91748fc07\",\"alt\":\"405e2d04 Bbf3 4fec 842d 38932d075573\"}},{\"id\":\"poster-1794497587703-6\",\"title\":\"851f7dcf 96d9 4fd0 Afb9 5efc813a70fd (1)\",\"subtitle\":\"Managed by Kaya Experience Ltd · Watamu, Timboni Stage\",\"category\":\"Excursions\",\"dateLabel\":\"Published Poster\",\"description\":\"Official poster published by KayArabuko / Kaya Experience Ltd. Contacts: 0728 560303 / 0712 863538.\",\"image\":{\"src\":\"https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fposter.poster-1794497587703-6_1794497588050_851f7dcf-96d9-4fd0-afb9-5efc813a70fd__1_.jpg?alt=media&token=270daa64-6440-4e0c-b65e-6e8f98bc052b\",\"alt\":\"851f7dcf 96d9 4fd0 Afb9 5efc813a70fd (1)\"}},{\"id\":\"poster-1794497589862-7\",\"title\":\"7300ec5b D868 4460 981a 64736bc9d523\",\"subtitle\":\"Managed by Kaya Experience Ltd · Watamu, Timboni Stage\",\"category\":\"Excursions\",\"dateLabel\":\"Published Poster\",\"description\":\"Official poster published by KayArabuko / Kaya Experience Ltd. Contacts: 0728 560303 / 0712 863538.\",\"image\":{\"src\":\"https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fposter.poster-1794497589862-7_1794497590106_7300ec5b-d868-4460-981a-64736bc9d523.jpg?alt=media&token=1ccaabb9-48bf-4c36-b448-be390c78ac25\",\"alt\":\"7300ec5b D868 4460 981a 64736bc9d523\"}},{\"id\":\"poster-1794497591898-8\",\"title\":\"9181834b 3324 412e A03f 7d5bec62d6f5\",\"subtitle\":\"Managed by Kaya Experience Ltd · Watamu, Timboni Stage\",\"category\":\"Excursions\",\"dateLabel\":\"Published Poster\",\"description\":\"Official poster published by KayArabuko / Kaya Experience Ltd. Contacts: 0728 560303 / 0712 863538.\",\"image\":{\"src\":\"https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fposter.poster-1794497591898-8_1794497592115_9181834b-3324-412e-a03f-7d5bec62d6f5.jpg?alt=media&token=c1233df2-c16b-40bb-a3ef-d87f20d2f7bc\",\"alt\":\"9181834b 3324 412e A03f 7d5bec62d6f5\"}},{\"id\":\"poster-1794497593509-9\",\"title\":\"A304ee0d Efa1 4df6 8115 Dac88da8e394\",\"subtitle\":\"Managed by Kaya Experience Ltd · Watamu, Timboni Stage\",\"category\":\"Excursions\",\"dateLabel\":\"Published Poster\",\"description\":\"Official poster published by KayArabuko / Kaya Experience Ltd. Contacts: 0728 560303 / 0712 863538.\",\"image\":{\"src\":\"https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fposter.poster-1794497593509-9_1794497593849_a304ee0d-efa1-4df6-8115-dac88da8e394.jpg?alt=media&token=2ea2cec1-df20-45fc-88f5-f6cac8794b24\",\"alt\":\"A304ee0d Efa1 4df6 8115 Dac88da8e394\"}},{\"id\":\"poster-1794497595260-10\",\"title\":\"B3e40cf4 3b5f 4108 88f7 699367c7a2a5\",\"subtitle\":\"Managed by Kaya Experience Ltd · Watamu, Timboni Stage\",\"category\":\"Excursions\",\"dateLabel\":\"Published Poster\",\"description\":\"Official poster published by KayArabuko / Kaya Experience Ltd. Contacts: 0728 560303 / 0712 863538.\",\"image\":{\"src\":\"https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fposter.poster-1794497595260-10_1794497595509_b3e40cf4-3b5f-4108-88f7-699367c7a2a5.jpg?alt=media&token=274bd3af-465f-40fd-ab61-6319a8629da4\",\"alt\":\"B3e40cf4 3b5f 4108 88f7 699367c7a2a5\"}},{\"id\":\"poster-1794497597289-11\",\"title\":\"C6114061 Efd9 45c9 A7bd 0ca0e906cee1\",\"subtitle\":\"Managed by Kaya Experience Ltd · Watamu, Timboni Stage\",\"category\":\"Excursions\",\"dateLabel\":\"Published Poster\",\"description\":\"Official poster published by KayArabuko / Kaya Experience Ltd. Contacts: 0728 560303 / 0712 863538.\",\"image\":{\"src\":\"https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fposter.poster-1794497597289-11_1794497597470_c6114061-efd9-45c9-a7bd-0ca0e906cee1.jpg?alt=media&token=6a66f726-3e49-4dfd-beb0-d01d05cf53d7\",\"alt\":\"C6114061 Efd9 45c9 A7bd 0ca0e906cee1\"}},{\"id\":\"poster-1794497599217-12\",\"title\":\"D079cec8 E90c 4342 B71a C60fadf04af2\",\"subtitle\":\"Managed by Kaya Experience Ltd · Watamu, Timboni Stage\",\"category\":\"Excursions\",\"dateLabel\":\"Published Poster\",\"description\":\"Official poster published by KayArabuko / Kaya Experience Ltd. Contacts: 0728 560303 / 0712 863538.\",\"image\":{\"src\":\"https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fposter.poster-1794497599217-12_1794497599360_d079cec8-e90c-4342-b71a-c60fadf04af2.jpg?alt=media&token=da041bcb-382b-4cf3-a0a8-a99b7a184c44\",\"alt\":\"D079cec8 E90c 4342 B71a C60fadf04af2\"}},{\"id\":\"poster-1794497601298-13\",\"title\":\"E168a60c Dad7 4716 951f C77cb16ed4b7\",\"subtitle\":\"Managed by Kaya Experience Ltd · Watamu, Timboni Stage\",\"category\":\"Excursions\",\"dateLabel\":\"Published Poster\",\"description\":\"Official poster published by KayArabuko / Kaya Experience Ltd. Contacts: 0728 560303 / 0712 863538.\",\"image\":{\"src\":\"https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fposter.poster-1794497601298-13_1794497601343_e168a60c-dad7-4716-951f-c77cb16ed4b7.jpg?alt=media&token=65efa3fe-172d-43d8-aff4-5bc3e9630835\",\"alt\":\"E168a60c Dad7 4716 951f C77cb16ed4b7\"}}]",
+      "updatedAt": "2026-11-12T15:33:23.032Z"
+    },
+    "siteImages": {
+      "updatedAt": "2026-11-18T19:14:24.636Z",
+      "overrides": {
+        "hero.4": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fhero.4_1794439691340.jpeg?alt=media&token=ceab1754-4420-4b62-9f2e-9803d3744911",
+        "community.mijikenda": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fcommunity.mijikenda_1794439702034.jpeg?alt=media&token=fb23ffdf-be0f-4830-9058-f960cbcc240a",
+        "community.maasai": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fcommunity.maasai_1794439699055.jpeg?alt=media&token=4ab329b8-0887-48ff-922a-e02c92d57888",
+        "experience.community-led-nature-experiences": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fexperience.community-led-nature-experiences_1794439735134.jpeg?alt=media&token=e4011e48-3f82-4304-a746-b65463ece5b5",
+        "story.cultural-heritage-of-kenyas-swahili-coast": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fstory.cultural-heritage-of-kenyas-swahili-coast_1794439750371.jpeg?alt=media&token=3be4071d-5a66-4f08-a078-8240955f33f4",
+        "ecosystem.arabuko-sokoke-forest": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fecosystem.arabuko-sokoke-forest_1794439712537.jpeg?alt=media&token=f4ca5ac4-37f9-47a4-bf22-d2093265dc79",
+        "experience.forest-walks-and-biodiversity": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fexperience.forest-walks-and-biodiversity_1794439733559.jpeg?alt=media&token=ae314ca7-fdfa-4e87-917e-091801e73700",
+        "community.samburu": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fcommunity.samburu_1794439700075.jpeg?alt=media&token=492d435b-96e3-4693-a89f-900c76b9a58e",
+        "pillar.explore": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fpillar.explore_1794439696190.jpeg?alt=media&token=ddf72e3b-e966-4ee3-b615-12e0ec2f7f25",
+        "conservation.theme.forests-and-biodiversity": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fconservation.theme.forests-and-biodiversity_1794439706031.jpeg?alt=media&token=b88fe6ee-4178-45ae-a8e1-a753c3d8d7cc",
+        "hero.1": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fhero.1_1794439683526.jpeg?alt=media&token=a9604ab4-47cf-401f-9961-73bf80f17fd8",
+        "region.kenyan-coast": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fregion.kenyan-coast_1794439726055.webp?alt=media&token=5bdae193-e737-4005-9f29-4f4014199c3e",
+        "accommodation.private-villas": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Faccommodation.private-villas_1795025518300_6b0992dd-bc9c-4057-b8aa-c96bbd0e4f08.avif?alt=media&token=fda2f154-c994-44b0-9857-12b89251a14a",
+        "excursion.mida-creek-boardwalk-experience": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fexcursion.mida-creek-boardwalk-experience_1795025885796_41062989e1f19fadceb340f0d9ac91a9616481622e106e9b9c0f4358b56617cf.avif?alt=media&token=c25bd6cd-8d55-433b-9850-2860b7ae7910",
+        "accommodation.private-lodgings-and-eco-stays": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Faccommodation.private-lodgings-and-eco-stays_1795025700868_eco-lodge-jua-bahari.jpg?alt=media&token=d891faf4-f334-44cf-b2f7-53cda08e0ffb",
+        "team.dr-milcah-wambua": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fteam.dr-milcah-wambua_1795028495527_21c62436-b397-4158-89a4-90bd05f9bfb4.jpg?alt=media&token=fac00f46-4f29-4471-8bf4-1cb412ecea1b",
+        "excursion.gede-ruins-heritage-excursion": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fexcursion.gede-ruins-heritage-excursion_1795025996154_images__3_.jpg?alt=media&token=9b310a12-aa33-4729-977e-66ccbf0b4aeb",
+        "pillar.conserve": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fpillar.conserve_1794439694533.webp?alt=media&token=e6eca880-19e2-4417-8ce6-923af39dad8d",
+        "ecosystem.mangrove-ecosystems": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fecosystem.mangrove-ecosystems_1794439725042.avif?alt=media&token=1c4900e5-439e-478c-b61c-77b33734a3b9",
+        "poster.poster-1794497573756-0": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fposter.poster-1794497573756-0_1794497573806_3c39e132-7aff-4351-821e-325a45123ae2.jpg?alt=media&token=c8c9ea1e-2151-4b5b-a649-195aca679966",
+        "poster.poster-1794497599217-12": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fposter.poster-1794497599217-12_1794497599360_d079cec8-e90c-4342-b71a-c60fadf04af2.jpg?alt=media&token=da041bcb-382b-4cf3-a0a8-a99b7a184c44",
+        "pillar.empower": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fpillar.empower_1794439698058.jpeg?alt=media&token=932e3911-6565-494a-addd-ca6a4b5192e0",
+        "community.swahili-coast": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fcommunity.swahili-coast_1794439703097.webp?alt=media&token=8cfdfa5e-8ae4-4375-997f-de0b1281a5cf",
+        "story.arabuko-sokoke-where-forest-conservation-meets-community": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fstory.arabuko-sokoke-where-forest-conservation-meets-community_1794439749167.jpeg?alt=media&token=6bab8a79-c003-4688-9738-d7d6e618c4e2",
+        "about.forest": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fabout.forest_1794439751812.jpeg?alt=media&token=e25684cc-fefa-48f1-ae64-316ecbc1d1cc",
+        "hero.2": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fhero.2_1794439686001.webp?alt=media&token=eb3000ca-8c8a-466e-ad5f-da60dc9bf5f6",
+        "story.understanding-the-mijikenda-and-sacred-kaya-forests": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fstory.understanding-the-mijikenda-and-sacred-kaya-forests_1794439738193.webp?alt=media&token=fd9956b4-9718-4040-b61e-6332de657544",
+        "ecosystem.community-conservancies": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fecosystem.community-conservancies_1794439724074.jpeg?alt=media&token=19408ed4-48f0-4fca-8eb7-6b2e6cc3ca7c",
+        "story.forgotten-beauty-of-kenyas-indigenous-forests": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fstory.forgotten-beauty-of-kenyas-indigenous-forests_1794439749784.jpeg?alt=media&token=46cecfef-648c-4c95-9d7d-e202aabe270a",
+        "intro.people": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fintro.people_1794439689755.jpeg?alt=media&token=130b1625-bc9b-429e-bf10-44333ff3b8c8",
+        "ecosystem.shimba-hills": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fecosystem.shimba-hills_1794439720481.jpeg?alt=media&token=667b318d-93ca-4e7f-8f43-dc876251261d",
+        "conservation.theme.coastal-and-marine": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fconservation.theme.coastal-and-marine_1794439709904.jpeg?alt=media&token=fa7f1f90-dcb8-48e8-b61c-b2bef9e6b3b5",
+        "poster.poster-1794497591898-8": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fposter.poster-1794497591898-8_1794497592115_9181834b-3324-412e-a03f-7d5bec62d6f5.jpg?alt=media&token=c1233df2-c16b-40bb-a3ef-d87f20d2f7bc",
+        "story.stories-behind-kenyas-living-cultural-heritage": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fstory.stories-behind-kenyas-living-cultural-heritage_1794439737446.jpeg?alt=media&token=bd69fdfe-c24e-4bbc-a5ca-08484693e931",
+        "poster.poster-1794497593509-9": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fposter.poster-1794497593509-9_1794497593849_a304ee0d-efa1-4df6-8115-dac88da8e394.jpg?alt=media&token=2ea2cec1-df20-45fc-88f5-f6cac8794b24",
+        "region.rift-valley": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fregion.rift-valley_1794439729393.jpeg?alt=media&token=937040bf-2cf3-4fc3-bc87-da11acc37990",
+        "experience.cultural-and-heritage-visits": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fexperience.cultural-and-heritage-visits_1794439730385.jpeg?alt=media&token=e5005320-a442-47f8-9264-ce0300b1cf3a",
+        "region.northern-kenya": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fregion.northern-kenya_1794439728230.jpeg?alt=media&token=cfd1d69c-ac5f-4558-a1a2-30bf39640a4e",
+        "hero.0": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fhero.0_1794439681323.webp?alt=media&token=ce8200b5-1675-402f-aa71-b253b1763604",
+        "poster.poster-1794497595260-10": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fposter.poster-1794497595260-10_1794497595509_b3e40cf4-3b5f-4108-88f7-699367c7a2a5.jpg?alt=media&token=274bd3af-465f-40fd-ab61-6319a8629da4",
+        "intro.forest": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fintro.forest_1794439692799.jpeg?alt=media&token=77f11175-2aff-4cea-bd75-779d9b155b7a",
+        "conservation.theme.wildlife-and-ecosystems": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fconservation.theme.wildlife-and-ecosystems_1794439707996.jpeg?alt=media&token=f06a38e9-cda7-48f0-bd4c-009b40fe9383",
+        "experience.heritage-sites-and-historical-exploration": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fexperience.heritage-sites-and-historical-exploration_1794439735988.jpeg?alt=media&token=38b20377-3865-4695-877e-3aad96b56719",
+        "excursion.safari-blue-marine-excursion": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fexcursion.safari-blue-marine-excursion_1795026051266_images__4_.jpg?alt=media&token=0fa330c2-a96a-4238-9162-f9a5c4a51f35",
+        "accommodation.coastal-and-forest-cottages": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Faccommodation.coastal-and-forest-cottages_1795025586528_images.jpg?alt=media&token=d0109722-0da3-431f-990a-11c392b82593",
+        "conservation.spotlight": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fconservation.spotlight_1794439704668.jpeg?alt=media&token=cd38ef48-b7ef-47f2-b8d1-bfb03c379d57",
+        "about.heritage": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fabout.heritage_1794439750960.jpeg?alt=media&token=2d10b581-94d2-4e0e-9fbd-9fc6b2cbb30e",
+        "experience.traditional-craft-and-food": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fexperience.traditional-craft-and-food_1794439732325.jpeg?alt=media&token=f91cf6dc-6316-4f24-99ca-be465ba01271",
+        "community.turkana": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fcommunity.turkana_1794439701060.jpeg?alt=media&token=9afad1e0-c925-4a40-abc0-aad2757f73e1",
+        "poster.poster-1794497576525-1": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fposter.poster-1794497576525-1_1794497576599_5eec089f-d205-4abf-813d-79429a6df9c0.jpg?alt=media&token=b78ff822-f949-4f8d-94d5-ffca76285f68",
+        "ecosystem.indigenous-coastal-forests": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fecosystem.indigenous-coastal-forests_1794439723074.jpeg?alt=media&token=3dfc82c2-2219-4065-84b8-d7184b751e0b",
+        "poster.poster-1794497589862-7": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fposter.poster-1794497589862-7_1794497590106_7300ec5b-d868-4460-981a-64736bc9d523.jpg?alt=media&token=1ccaabb9-48bf-4c36-b448-be390c78ac25",
+        "poster.poster-1794497601298-13": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fposter.poster-1794497601298-13_1794497601343_e168a60c-dad7-4716-951f-c77cb16ed4b7.jpg?alt=media&token=65efa3fe-172d-43d8-aff4-5bc3e9630835",
+        "accommodation.hotels-and-beach-resorts": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Faccommodation.hotels-and-beach-resorts_1795025652015_images__1_.jpg?alt=media&token=b2b10146-5ca5-4849-bacf-9f61a47ec697",
+        "ecosystem.aberdare-forest-range": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fecosystem.aberdare-forest-range_1794439721845.jpeg?alt=media&token=147248fa-6f04-4b50-b595-a76cb28a76f1",
+        "excursion.mida-creek-bird-watching-and-hikes": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fexcursion.mida-creek-bird-watching-and-hikes_1795025808028_images__2_.jpg?alt=media&token=b094d475-e809-4529-908b-fc5ea4f14fbd",
+        "excursion.mida-creek-mangrove-boat-rides": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fexcursion.mida-creek-mangrove-boat-rides_1795025949660_nairobi-mida-creek-mangrove-kayaking-tour-7288963.webp?alt=media&token=d8dd6712-3a52-4763-97b2-ab34df5b74dd",
+        "poster.poster-1794497585831-5": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fposter.poster-1794497585831-5_1794497586049_405e2d04-bbf3-4fec-842d-38932d075573.jpg?alt=media&token=8d77644c-2920-4189-8428-b2e91748fc07",
+        "story.life-and-traditions-among-the-samburu": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fstory.life-and-traditions-among-the-samburu_1794439738888.jpeg?alt=media&token=d1e1643f-634a-4c6a-bda5-d1a66eb928c4",
+        "experience.community-encounters": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fexperience.community-encounters_1794439731368.jpeg?alt=media&token=d32eef81-eef2-45ae-864b-f11e40a8c4df",
+        "experience.regional-discovery-tours": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fexperience.regional-discovery-tours_1794439736744.jpeg?alt=media&token=3f94bcb7-8480-49b3-9c62-86ae3796fa9f",
+        "experience.conservation-and-environmental-learning": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fexperience.conservation-and-environmental-learning_1794439734308.jpeg?alt=media&token=52855309-3e2c-4dbb-a170-4bee630a949e",
+        "region.aberdare-ranges": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fregion.aberdare-ranges_1794439727215.jpeg?alt=media&token=239c6cf6-0cc9-4455-88f7-01cad3c26947",
+        "brand.kayaExperience.logo": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fbrand.kayaExperience.logo_1794823180650_WhatsApp_Image_2026-11-08_at_20.47.17.jpeg?alt=media&token=9ee866c7-449b-49ea-83ff-d1c68c3058d3",
+        "poster.poster-1794497582607-3": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fposter.poster-1794497582607-3_1794497582953_7e6aa0e6-2c93-4e9d-b247-0a5c68ca07c2.jpg?alt=media&token=7be4010f-a286-414d-8a34-16ed9145f4dc",
+        "poster.poster-1794497597289-11": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fposter.poster-1794497597289-11_1794497597470_c6114061-efd9-45c9-a7bd-0ca0e906cee1.jpg?alt=media&token=6a66f726-3e49-4dfd-beb0-d01d05cf53d7",
+        "poster.poster-1794497584250-4": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fposter.poster-1794497584250-4_1794497584483_08f1af60-40bf-4622-8205-aa378d37644c.jpg?alt=media&token=e6a0fd05-c1a9-498a-bdcb-64713298ce78",
+        "poster.poster-1794497578983-2": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fposter.poster-1794497578983-2_1794497580449_7bcf743e-2f17-4c0b-ba3e-478e755f7252.jpg?alt=media&token=1313acd1-8fc4-4771-ab37-58073650fc44",
+        "conservation.theme.community-conservation": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fconservation.theme.community-conservation_1794439711055.jpeg?alt=media&token=a91900d4-e4f9-4bb6-9dad-3a84dec5c060",
+        "team.arnold-mramba": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fteam.arnold-mramba_1795029263145_WhatsApp_Image_2026-11-17_at_17.55.15.jpeg?alt=media&token=5b54121a-c875-45cd-b350-048a390cf1d3",
+        "hero.3": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fhero.3_1794439688330.jpeg?alt=media&token=f82c07f7-efa6-4ea3-8efc-ed102be329f7",
+        "poster.poster-1794497587703-6": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fposter.poster-1794497587703-6_1794497588050_851f7dcf-96d9-4fd0-afb9-5efc813a70fd__1_.jpg?alt=media&token=270daa64-6440-4e0c-b65e-6e8f98bc052b",
+        "team.mrisa": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fteam.mrisa_1794496843854_151f445d-a44d-4e48-bbf3-48b84f67b6be.jpg?alt=media&token=4a4d3a4d-0d85-403b-b5b0-d9aba78fa114"
+      }
+    },
+    "test": {
+      "ping": "pong",
+      "timestamp": "2026-10-05T21:17:02.977Z"
+    },
+    "visualContent": {
+      "textsJson": "{\"team::span::1ra58xk\":\"DR. Milcah Wambua\",\"footer::p::pgtgfs\":\"Proudly Managed By KAYA EXPERIENCE\",\"team::p::1jmo0u2\":\"A passionate entrepreneur in hospitality, tourism, and food systems, Mr. Karisa leads the strategic vision behind the Kaya Experience brands. His mission is to create authentic coastal experiences through sustainable tourism, quality accommodation, and community empowerment.\",\"team::p::105vkbc\":\"A distinguished scholar and professional, Dr. Milcah Karisa brings academic excellence, leadership, and innovation to the organization. Her commitment to education, research, and lifestyle development strengthens the foundation of the Kaya Experience vision.\",\"team::p::vt87ov\":\"Co-Founder\",\"accommodation::h3::1at0syt\":\"Boutique Hotels & Coastal Resorts\",\"accommodation::h3::f93s2o\":\"Private Lodgings, Eco-Camps & Homestays\",\"excursions::h3::s910gn\":\"Mida Creek Boardwalk & Community Walk\"}",
+      "updatedAt": "2026-11-18T19:00:39.677Z",
+      "deletedSectionsJson": "[\"card::stories::1\",\"card::team::2\",\"card::stories::8\",\"card::stories::7\",\"card::stories::6\",\"card::stories::5\",\"card::stories::4\",\"card::stories::3\",\"card::stories::2\",\"card::stories::0\",\"stories\",\"gallery\",\"card::posters::8\",\"card::posters::9\"]"
+    }
+  },
+  "communities": {},
+  "regions": {},
+  "visitExperiences": {},
+  "experiences": {
+    "the-adventurer": {
+      "updatedAt": "2026-10-05T21:21:38.991Z",
+      "slug": "the-adventurer",
+      "blurb": "Crater rims, mountain trails and remote northern landscapes walked with authentic trackers.",
+      "persona": "For hikers and explorers",
+      "image": {
+        "storagePath": "experiences/the-adventurer.jpg",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/experiences%2Fthe-adventurer.jpg?alt=media",
+        "alt": "the adventurer experience story"
+      },
+      "title": "The Adventurer"
+    },
+    "the-conservationist": {
+      "slug": "the-conservationist",
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/experiences%2Fthe-conservationist.jpg?alt=media",
+        "storagePath": "experiences/the-conservationist.jpg",
+        "alt": "the conservationist experience story"
+      },
+      "updatedAt": "2026-10-05T21:21:40.828Z"
+    },
+    "the-cultural-explorer": {
+      "image": {
+        "storagePath": "experiences/the-cultural-explorer.jpg",
+        "alt": "the cultural explorer experience story",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/experiences%2Fthe-cultural-explorer.jpg?alt=media"
+      },
+      "slug": "the-cultural-explorer",
+      "updatedAt": "2026-10-05T21:21:40.419Z"
+    },
+    "the-family": {
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/experiences%2Fthe-family.jpg?alt=media",
+        "alt": "the family experience story",
+        "storagePath": "experiences/the-family.jpg"
+      },
+      "updatedAt": "2026-10-05T21:21:40.050Z",
+      "slug": "the-family"
+    },
+    "the-photographer": {
+      "slug": "the-photographer",
+      "updatedAt": "2026-10-05T21:21:39.332Z",
+      "blurb": "Golden hour positioning, beanbag mounts, and patience in specialized open-sided safari vehicles.",
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/experiences%2Fthe-photographer.jpg?alt=media",
+        "storagePath": "experiences/the-photographer.jpg",
+        "alt": "the photographer experience story"
+      },
+      "title": "The Photographer",
+      "persona": "For visual storytellers"
+    },
+    "the-romantic": {
+      "title": "The Romantic",
+      "image": {
+        "storagePath": "experiences/the-romantic.jpg",
+        "alt": "the romantic experience story",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/experiences%2Fthe-romantic.jpg?alt=media"
+      },
+      "updatedAt": "2026-10-05T21:21:39.702Z",
+      "slug": "the-romantic",
+      "blurb": "Private bush suites, starlit dining, and secluded coastal retreats to slow down together.",
+      "persona": "For couples and honeymoons"
+    },
+    "the-wild": {
+      "updatedAt": "2026-10-05T21:21:38.644Z",
+      "image": {
+        "alt": "the wild experience story",
+        "storagePath": "experiences/the-wild.jpg",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/experiences%2Fthe-wild.jpg?alt=media"
+      },
+      "persona": "For wildlife lovers",
+      "blurb": "Big cats, elephants and wide skies, guided by naturalists who know the animals by name.",
+      "title": "The Wild",
+      "slug": "the-wild"
+    }
+  },
+  "safariPackages": {},
+  "excursions": {},
+  "transfers": {},
+  "team": {},
+  "posters": {},
+  "activityGallery": {},
+  "stories": {
+    "best-time-to-visit-maasai-mara": {
+      "image": {
+        "storagePath": "stories/best-time-to-visit-maasai-mara.jpg",
+        "alt": "best time to visit maasai mara safari journal article",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/stories%2Fbest-time-to-visit-maasai-mara.jpg?alt=media"
+      },
+      "readMinutes": 6,
+      "excerpt": "Seasons, the Great Migration timing, and what each month tends to look like in the Mara ecosystem.",
+      "updatedAt": "2026-10-05T21:21:41.238Z",
+      "title": "Best Time to Visit Maasai Mara",
+      "publishedAt": "2026-03-01",
+      "categorySlug": "safari-guides",
+      "author": "Joseph Ole Lenku (Lead Naturalist)",
+      "slug": "best-time-to-visit-maasai-mara"
+    },
+    "birding-in-the-rift-valley": {
+      "slug": "birding-in-the-rift-valley",
+      "updatedAt": "2026-10-05T21:21:42.880Z",
+      "image": {
+        "storagePath": "stories/birding-in-the-rift-valley.jpg",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/stories%2Fbirding-in-the-rift-valley.jpg?alt=media",
+        "alt": "birding in the rift valley safari journal article"
+      }
+    },
+    "conservation-in-the-mara-conservancies": {
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/stories%2Fconservation-in-the-mara-conservancies.jpg?alt=media",
+        "alt": "conservation in the mara conservancies safari journal article",
+        "storagePath": "stories/conservation-in-the-mara-conservancies.jpg"
+      },
+      "updatedAt": "2026-10-05T21:21:43.286Z",
+      "slug": "conservation-in-the-mara-conservancies"
+    },
+    "first-time-safari-tips": {
+      "slug": "first-time-safari-tips",
+      "image": {
+        "storagePath": "stories/first-time-safari-tips.jpg",
+        "alt": "first time safari tips safari journal article",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/stories%2Ffirst-time-safari-tips.jpg?alt=media"
+      },
+      "updatedAt": "2026-10-05T21:21:44.105Z"
+    },
+    "great-migration-explained": {
+      "updatedAt": "2026-10-05T21:21:42.467Z",
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/stories%2Fgreat-migration-explained.jpg?alt=media",
+        "alt": "great migration explained safari journal article",
+        "storagePath": "stories/great-migration-explained.jpg"
+      },
+      "slug": "great-migration-explained"
+    },
+    "kenya-safari-cost-guide": {
+      "publishedAt": "2026-03-15",
+      "slug": "kenya-safari-cost-guide",
+      "updatedAt": "2026-10-05T21:21:42.057Z",
+      "author": "KayArabuko Operations",
+      "readMinutes": 8,
+      "categorySlug": "safari-guides",
+      "title": "Understanding Kenya Safari Pricing: What You Pay For",
+      "excerpt": "Park fees, conservancy levies, vehicle maintenance, and fair guide wages explained transparently.",
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/stories%2Fkenya-safari-cost-guide.jpg?alt=media",
+        "alt": "kenya safari cost guide safari journal article",
+        "storagePath": "stories/kenya-safari-cost-guide.jpg"
+      }
+    },
+    "photography-tips-for-kenya": {
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/stories%2Fphotography-tips-for-kenya.jpg?alt=media",
+        "alt": "photography tips for kenya safari journal article",
+        "storagePath": "stories/photography-tips-for-kenya.jpg"
+      },
+      "updatedAt": "2026-10-05T21:21:44.516Z",
+      "slug": "photography-tips-for-kenya"
+    },
+    "swahili-coast-history-and-culture": {
+      "updatedAt": "2026-10-05T21:21:43.697Z",
+      "slug": "swahili-coast-history-and-culture",
+      "image": {
+        "storagePath": "stories/swahili-coast-history-and-culture.jpg",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/stories%2Fswahili-coast-history-and-culture.jpg?alt=media",
+        "alt": "swahili coast history and culture safari journal article"
+      }
+    },
+    "what-to-pack-for-a-kenyan-safari": {
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/stories%2Fwhat-to-pack-for-a-kenyan-safari.jpg?alt=media",
+        "storagePath": "stories/what-to-pack-for-a-kenyan-safari.jpg",
+        "alt": "what to pack for a kenyan safari safari journal article"
+      },
+      "excerpt": "A practical packing guide: neutral layers, photographic gear, dust protection, and safari essentials.",
+      "categorySlug": "travel-tips",
+      "readMinutes": 5,
+      "author": "KayArabuko Editorial",
+      "updatedAt": "2026-10-05T21:21:41.647Z",
+      "title": "What to Pack for a Kenyan Safari",
+      "publishedAt": "2026-03-10",
+      "slug": "what-to-pack-for-a-kenyan-safari"
+    }
+  },
+  "gallery": {},
+  "safaris": {
+    "10-day-grand-kenya-wildlife-expedition": {
+      "slug": "10-day-grand-kenya-wildlife-expedition",
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/safaris%2F10-day-grand-kenya-wildlife-expedition.jpg?alt=media",
+        "storagePath": "safaris/10-day-grand-kenya-wildlife-expedition.jpg",
+        "alt": "10 day grand kenya wildlife expedition Kenya safari tour package"
+      },
+      "updatedAt": "2026-10-05T21:21:37.306Z"
+    },
+    "12-day-epic-northern-and-southern-circuits": {
+      "image": {
+        "alt": "12 day epic northern and southern circuits Kenya safari tour package",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/safaris%2F12-day-epic-northern-and-southern-circuits.jpg?alt=media",
+        "storagePath": "safaris/12-day-epic-northern-and-southern-circuits.jpg"
+      },
+      "updatedAt": "2026-10-05T21:21:38.327Z",
+      "slug": "12-day-epic-northern-and-southern-circuits"
+    },
+    "3-day-maasai-mara-safari": {
+      "highlights": [
+        "Intensive game drives with expert KPSGA guides",
+        "Big Five wildlife tracking",
+        "Scenic picnic lunch on the Mara plains",
+        "Maasai cultural evening"
+      ],
+      "destinationSlugs": [
+        "maasai-mara"
+      ],
+      "days": 3,
+      "transport": "land-cruiser",
+      "tier": "mid-range",
+      "shortDescription": "A focused, intensive 3-day exploration of Africa's premier big cat territory with maximized morning and evening game drives.",
+      "fromPriceUsd": 890,
+      "title": "3-Day Maasai Mara Express Safari",
+      "styles": [
+        "wildlife"
+      ],
+      "updatedAt": "2026-10-05T21:21:35.095Z",
+      "slug": "3-day-maasai-mara-safari",
+      "countySlugs": [
+        "narok"
+      ],
+      "difficulty": "easy",
+      "image": {
+        "storagePath": "safaris/3-day-maasai-mara-safari.jpg",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/safaris%2F3-day-maasai-mara-safari.jpg?alt=media",
+        "alt": "3 day maasai mara safari Kenya safari tour package"
+      }
+    },
+    "4-day-amboseli-and-tsavo-safari": {
+      "slug": "4-day-amboseli-and-tsavo-safari",
+      "destinationSlugs": [
+        "amboseli",
+        "tsavo-west"
+      ],
+      "difficulty": "easy",
+      "shortDescription": "Witness colossal elephant herds crossing dried salt pans beneath Mount Kilimanjaro followed by red dust tuskers in Tsavo.",
+      "styles": [
+        "wildlife",
+        "adventure"
+      ],
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/safaris%2F4-day-amboseli-and-tsavo-safari.jpg?alt=media",
+        "alt": "4 day amboseli and tsavo safari Kenya safari tour package",
+        "storagePath": "safaris/4-day-amboseli-and-tsavo-safari.jpg"
+      },
+      "transport": "land-cruiser",
+      "fromPriceUsd": 1180,
+      "tier": "mid-range",
+      "days": 4,
+      "highlights": [
+        "Kilimanjaro backdrop dawn photography",
+        "Shetani lava field exploration",
+        "Ngulia rhino sanctuary game drive",
+        "Scenic Chyulu Hills views"
+      ],
+      "updatedAt": "2026-10-05T21:21:35.503Z",
+      "title": "4-Day Amboseli & Tsavo Safari",
+      "countySlugs": [
+        "kajiado",
+        "taita-taveta"
+      ]
+    },
+    "4-day-mount-kenya-and-aberdare-safari": {
+      "image": {
+        "storagePath": "safaris/4-day-mount-kenya-and-aberdare-safari.jpg",
+        "alt": "4 day mount kenya and aberdare safari Kenya safari tour package",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/safaris%2F4-day-mount-kenya-and-aberdare-safari.jpg?alt=media"
+      },
+      "slug": "4-day-mount-kenya-and-aberdare-safari",
+      "updatedAt": "2026-10-05T21:21:37.626Z"
+    },
+    "5-day-maasai-mara-and-lake-nakuru-safari": {
+      "days": 5,
+      "updatedAt": "2026-10-05T21:21:35.913Z",
+      "tier": "mid-range",
+      "title": "5-Day Maasai Mara & Lake Nakuru Safari",
+      "transport": "land-cruiser",
+      "difficulty": "easy",
+      "destinationSlugs": [
+        "maasai-mara",
+        "lake-nakuru"
+      ],
+      "highlights": [
+        "Full day Mara game drive",
+        "Tracking black and white rhinos",
+        "Scenic Great Rift Valley escarpment stops",
+        "Private pop-up 4x4 safari cruiser"
+      ],
+      "shortDescription": "Kenya's classic circuit: the world-famous big cat savannahs of the Mara combined with Nakuru's thriving rhino sanctuary.",
+      "slug": "5-day-maasai-mara-and-lake-nakuru-safari",
+      "countySlugs": [
+        "narok",
+        "nakuru"
+      ],
+      "fromPriceUsd": 1450,
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/safaris%2F5-day-maasai-mara-and-lake-nakuru-safari.jpg?alt=media",
+        "alt": "5 day maasai mara and lake nakuru safari Kenya safari tour package",
+        "storagePath": "safaris/5-day-maasai-mara-and-lake-nakuru-safari.jpg"
+      },
+      "styles": [
+        "wildlife",
+        "photography"
+      ]
+    },
+    "6-day-coastal-wilderness-and-bush-safari": {
+      "image": {
+        "storagePath": "safaris/6-day-coastal-wilderness-and-bush-safari.jpg",
+        "alt": "6 day coastal wilderness and bush safari Kenya safari tour package",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/safaris%2F6-day-coastal-wilderness-and-bush-safari.jpg?alt=media"
+      },
+      "slug": "6-day-coastal-wilderness-and-bush-safari",
+      "updatedAt": "2026-10-05T21:21:37.971Z"
+    },
+    "6-day-samburu-and-ol-pejeta-safari": {
+      "slug": "6-day-samburu-and-ol-pejeta-safari",
+      "image": {
+        "alt": "6 day samburu and ol pejeta safari Kenya safari tour package",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/safaris%2F6-day-samburu-and-ol-pejeta-safari.jpg?alt=media",
+        "storagePath": "safaris/6-day-samburu-and-ol-pejeta-safari.jpg"
+      },
+      "updatedAt": "2026-10-05T21:21:36.639Z"
+    },
+    "7-day-kenya-safari-and-diani-beach": {
+      "updatedAt": "2026-10-05T21:21:36.322Z",
+      "fromPriceUsd": 2650,
+      "days": 7,
+      "image": {
+        "storagePath": "safaris/7-day-kenya-safari-and-diani-beach.jpg",
+        "alt": "7 day kenya safari and diani beach Kenya safari tour package",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/safaris%2F7-day-kenya-safari-and-diani-beach.jpg?alt=media"
+      },
+      "tier": "luxury",
+      "transport": "fly-in",
+      "destinationSlugs": [
+        "amboseli",
+        "tsavo-west",
+        "diani"
+      ],
+      "highlights": [
+        "Elephant photography beneath Kilimanjaro",
+        "Mzima Springs underwater hippo viewing",
+        "Direct flight or Madaraka Express train to coastal sands",
+        "3 nights relaxing at boutique Diani beachfront villa"
+      ],
+      "shortDescription": "The ultimate bush-to-beach journey: iconic elephant herds under Kilimanjaro, volcanic Tsavo springs, and powder-white sands in Diani.",
+      "countySlugs": [
+        "kajiado",
+        "taita-taveta",
+        "kwale"
+      ],
+      "styles": [
+        "beach-and-safari",
+        "honeymoon",
+        "luxury"
+      ],
+      "slug": "7-day-kenya-safari-and-diani-beach",
+      "title": "7-Day Kenya Safari & Diani Beach",
+      "difficulty": "easy"
+    },
+    "8-day-great-rift-valley-and-mara-safari": {
+      "updatedAt": "2026-10-05T21:21:36.988Z",
+      "image": {
+        "storagePath": "safaris/8-day-great-rift-valley-and-mara-safari.jpg",
+        "alt": "8 day great rift valley and mara safari Kenya safari tour package",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/safaris%2F8-day-great-rift-valley-and-mara-safari.jpg?alt=media"
+      },
+      "slug": "8-day-great-rift-valley-and-mara-safari"
+    }
+  },
+  "destinations": {
+    "aberdare": {
+      "slug": "aberdare",
+      "image": {
+        "storagePath": "destinations/aberdare.jpg",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/Kararabuko_images%2F28.jpg?alt=media&token=cd965230-ce6b-4d18-b548-925b65f9fa55",
+        "alt": "aberdare Kenya destination photography"
+      },
+      "updatedAt": "2026-10-05T21:21:28.994Z"
+    },
+    "amboseli": {
+      "knownFor": [
+        "Big Tuskers",
+        "Kilimanjaro Views",
+        "Swamp Birdlife",
+        "Maasai Culture"
+      ],
+      "summary": "Renowned for its free-ranging elephant herds set against the dramatic backdrop of Africa's highest peak.",
+      "signatureExperience": "Photographic sunrise drives with elephants framing Mount Kilimanjaro",
+      "wildlife": [
+        "Elephant",
+        "Lion",
+        "Cheetah",
+        "Giraffe",
+        "Zebra",
+        "Flamingo",
+        "Pelican"
+      ],
+      "themes": [
+        "wildlife",
+        "photography",
+        "mountains"
+      ],
+      "tagline": "Elephants beneath Mount Kilimanjaro",
+      "activities": [
+        "Game Viewing",
+        "Photography Safaris",
+        "Observation Hill Walks",
+        "Cultural Encounters"
+      ],
+      "slug": "amboseli",
+      "bestTime": "June to October and January to February for clear mountain views.",
+      "region": "Rift Valley / Southern",
+      "name": "Amboseli National Park",
+      "updatedAt": "2026-10-05T21:21:24.562Z",
+      "countySlugs": [
+        "kajiado"
+      ],
+      "image": {
+        "storagePath": "destinations/amboseli.jpg",
+        "alt": "amboseli Kenya destination photography",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/Kararabuko_images%2FGame-Drive-Safari-in-Maasai-Mara-National-Reserve.jpg?alt=media&token=1e3496e1-001b-45bb-b020-adb5b17eba18"
+      },
+      "type": "national-park"
+    },
+    "buffalo-springs": {
+      "slug": "buffalo-springs",
+      "updatedAt": "2026-10-05T21:21:27.873Z",
+      "image": {
+        "storagePath": "destinations/buffalo-springs.jpg",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/Kararabuko_images%2FImage%201.jpg?alt=media&token=8e2c41de-fefa-4f9c-93ae-6a5a035a1e10",
+        "alt": "buffalo springs Kenya destination photography"
+      }
+    },
+    "chyulu-hills": {
+      "image": {
+        "storagePath": "destinations/chyulu-hills.jpg",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/destinations%2Fchyulu-hills.jpg?alt=media",
+        "alt": "chyulu hills Kenya destination photography"
+      },
+      "slug": "chyulu-hills",
+      "updatedAt": "2026-10-05T21:21:30.793Z"
+    },
+    "diani": {
+      "summary": "Voted Africa's leading beach destination multiple times, combining tropical relaxation with marine adventures and Swahili hospitality.",
+      "activities": [
+        "Snorkeling",
+        "Scuba Diving",
+        "Kite Surfing",
+        "Sunset Dhow Cruises",
+        "Colobus Conservation Trail"
+      ],
+      "type": "coast",
+      "signatureExperience": "Dhow sailing and snorkeling at Kisite-Mpunguti Marine Reserve",
+      "image": {
+        "storagePath": "destinations/diani.jpg",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/destinations%2Fdiani.jpg?alt=media",
+        "alt": "diani Kenya destination photography"
+      },
+      "name": "Diani Beach",
+      "region": "Coast",
+      "slug": "diani",
+      "countySlugs": [
+        "kwale"
+      ],
+      "bestTime": "October to April for calm seas and crystal clear water visibility.",
+      "themes": [
+        "beach",
+        "marine",
+        "adventure"
+      ],
+      "wildlife": [
+        "Dolphins",
+        "Sea Turtles",
+        "Whale Sharks",
+        "Colobus Monkey",
+        "Humpback Whales (seasonal)"
+      ],
+      "tagline": "Powder-white sands and warm Indian Ocean",
+      "knownFor": [
+        "White Sand Beaches",
+        "Coral Reefs",
+        "Colobus Monkeys",
+        "Dhow Safaris"
+      ],
+      "updatedAt": "2026-10-05T21:21:31.557Z"
+    },
+    "hells-gate": {
+      "updatedAt": "2026-10-05T21:21:25.760Z",
+      "slug": "hells-gate",
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/destinations%2Fhells-gate.jpg?alt=media",
+        "alt": "hells gate Kenya destination photography",
+        "storagePath": "destinations/hells-gate.jpg"
+      }
+    },
+    "kakamega-forest": {
+      "updatedAt": "2026-10-05T21:21:32.638Z",
+      "slug": "kakamega-forest",
+      "image": {
+        "storagePath": "destinations/kakamega-forest.jpg",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/destinations%2Fkakamega-forest.jpg?alt=media",
+        "alt": "kakamega forest Kenya destination photography"
+      }
+    },
+    "lake-naivasha": {
+      "image": {
+        "alt": "lake naivasha Kenya destination photography",
+        "storagePath": "destinations/lake-naivasha.jpg",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/destinations%2Flake-naivasha.jpg?alt=media"
+      },
+      "updatedAt": "2026-10-05T21:21:25.367Z",
+      "slug": "lake-naivasha"
+    },
+    "lake-nakuru": {
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/destinations%2Flake-nakuru.jpg?alt=media",
+        "storagePath": "destinations/lake-nakuru.jpg",
+        "alt": "lake nakuru Kenya destination photography"
+      },
+      "name": "Lake Nakuru National Park",
+      "summary": "A compact ecological haven featuring thriving populations of black and white rhinos and millions of flamingos along the alkaline lake shores.",
+      "type": "national-park",
+      "bestTime": "Year-round; dry months of July–September provide optimal wildlife trails.",
+      "slug": "lake-nakuru",
+      "region": "Rift Valley",
+      "wildlife": [
+        "Black Rhino",
+        "White Rhino",
+        "Rothschild's Giraffe",
+        "Leopard",
+        "Flamingo",
+        "Waterbuck"
+      ],
+      "tagline": "Rhino haven and birdwatcher's paradise",
+      "activities": [
+        "Game Drives",
+        "Bird Watching",
+        "Viewpoint Photography",
+        "Rhino Tracking"
+      ],
+      "themes": [
+        "wildlife",
+        "birding",
+        "conservation"
+      ],
+      "knownFor": [
+        "Rhino Sanctuary",
+        "Flamingos",
+        "Rothschild's Giraffes",
+        "Baboon Cliff"
+      ],
+      "countySlugs": [
+        "nakuru"
+      ],
+      "signatureExperience": "Tracking white and black rhinos in the acacia woodlands",
+      "updatedAt": "2026-10-05T21:21:24.957Z"
+    },
+    "lake-turkana": {
+      "image": {
+        "storagePath": "destinations/lake-turkana.jpg",
+        "alt": "lake turkana Kenya destination photography",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/destinations%2Flake-turkana.jpg?alt=media"
+      },
+      "slug": "lake-turkana",
+      "updatedAt": "2026-10-05T21:21:33.866Z"
+    },
+    "maasai-mara": {
+      "summary": "World-famous for the Great Wildebeest Migration and exceptional year-round big cat sightings across sweeping savannahs.",
+      "knownFor": [
+        "Great Migration",
+        "Big Cats",
+        "Maasai Culture",
+        "Balloon Safaris"
+      ],
+      "signatureExperience": "Dawn game drives during the Great Migration river crossing",
+      "wildlife": [
+        "Lion",
+        "Leopard",
+        "Cheetah",
+        "Elephant",
+        "Wildebeest",
+        "Zebra",
+        "Hippo"
+      ],
+      "tagline": "The crown jewel of African wildlife",
+      "countySlugs": [
+        "narok"
+      ],
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/destinations%2Fmaasai-mara.jpg?alt=media",
+        "alt": "maasai mara Kenya destination photography",
+        "storagePath": "destinations/maasai-mara.jpg"
+      },
+      "bestTime": "July to October for migration; year-round for resident big cats.",
+      "slug": "maasai-mara",
+      "updatedAt": "2026-10-05T21:21:23.126Z",
+      "activities": [
+        "Game Drives",
+        "Hot Air Balloon Safaris",
+        "Maasai Cultural Village Visits",
+        "Bush Dining"
+      ],
+      "name": "Maasai Mara National Reserve",
+      "region": "Rift Valley",
+      "type": "reserve",
+      "themes": [
+        "wildlife",
+        "culture",
+        "photography"
+      ]
+    },
+    "malindi": {
+      "slug": "malindi",
+      "image": {
+        "alt": "malindi Kenya destination photography",
+        "storagePath": "destinations/malindi.jpg",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/destinations%2Fmalindi.jpg?alt=media"
+      },
+      "updatedAt": "2026-10-05T21:21:32.203Z"
+    },
+    "marsabit": {
+      "updatedAt": "2026-10-05T21:21:34.276Z",
+      "slug": "marsabit",
+      "image": {
+        "storagePath": "destinations/marsabit.jpg",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/destinations%2Fmarsabit.jpg?alt=media",
+        "alt": "marsabit Kenya destination photography"
+      }
+    },
+    "meru": {
+      "updatedAt": "2026-10-05T21:21:29.769Z",
+      "image": {
+        "storagePath": "destinations/meru.jpg",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/destinations%2Fmeru.jpg?alt=media",
+        "alt": "meru Kenya destination photography"
+      },
+      "slug": "meru"
+    },
+    "mount-elgon": {
+      "image": {
+        "storagePath": "destinations/mount-elgon.jpg",
+        "alt": "mount elgon Kenya destination photography",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/destinations%2Fmount-elgon.jpg?alt=media"
+      },
+      "slug": "mount-elgon",
+      "updatedAt": "2026-10-05T21:21:33.046Z"
+    },
+    "mount-kenya": {
+      "countySlugs": [
+        "nyeri",
+        "meru",
+        "laikipia"
+      ],
+      "themes": [
+        "mountains",
+        "adventure",
+        "conservation"
+      ],
+      "wildlife": [
+        "Mountain Bongo",
+        "Colobus Monkey",
+        "Giant Forest Hog",
+        "Elephant",
+        "Sunbird"
+      ],
+      "region": "Central",
+      "activities": [
+        "High-Altitude Trekking",
+        "Alpine Rock Climbing",
+        "Trout Fishing",
+        "Botany Walks"
+      ],
+      "tagline": "The sacred frosted peaks of Kirinyaga",
+      "updatedAt": "2026-10-05T21:21:28.643Z",
+      "knownFor": [
+        "Point Lenana Trek",
+        "Rare Mountain Bongo",
+        "Afro-Alpine Ecosystem",
+        "UNESCO World Heritage"
+      ],
+      "signatureExperience": "Trekking through the giant lobelia and alpine tarns towards Point Lenana",
+      "slug": "mount-kenya",
+      "bestTime": "January–February and July–September for clear alpine conditions.",
+      "name": "Mount Kenya National Park",
+      "image": {
+        "storagePath": "destinations/mount-kenya.jpg",
+        "alt": "mount kenya Kenya destination photography",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/destinations%2Fmount-kenya.jpg?alt=media"
+      },
+      "summary": "Africa's second-highest summit, featuring Afro-alpine flora, glacial tarns, and sacred forests steeped in Kikuyu lore.",
+      "type": "mountain"
+    },
+    "mount-longonot": {
+      "updatedAt": "2026-10-05T21:21:30.383Z",
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/destinations%2Fmount-longonot.jpg?alt=media",
+        "alt": "mount longonot Kenya destination photography",
+        "storagePath": "destinations/mount-longonot.jpg"
+      },
+      "slug": "mount-longonot"
+    },
+    "nairobi-national-park": {
+      "image": {
+        "alt": "nairobi national park Kenya destination photography",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/destinations%2Fnairobi-national-park.jpg?alt=media",
+        "storagePath": "destinations/nairobi-national-park.jpg"
+      },
+      "updatedAt": "2026-10-05T21:21:29.360Z",
+      "slug": "nairobi-national-park"
+    },
+    "ol-pejeta": {
+      "updatedAt": "2026-10-05T21:21:28.220Z",
+      "slug": "ol-pejeta",
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/destinations%2Fol-pejeta.jpg?alt=media",
+        "storagePath": "destinations/ol-pejeta.jpg",
+        "alt": "ol pejeta Kenya destination photography"
+      }
+    },
+    "ruma": {
+      "slug": "ruma",
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/destinations%2Fruma.jpg?alt=media",
+        "alt": "ruma Kenya destination photography",
+        "storagePath": "destinations/ruma.jpg"
+      },
+      "updatedAt": "2026-10-05T21:21:33.455Z"
+    },
+    "samburu": {
+      "type": "reserve",
+      "bestTime": "June to October and December to March.",
+      "name": "Samburu National Reserve",
+      "slug": "samburu",
+      "image": {
+        "alt": "samburu Kenya destination photography",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/destinations%2Fsamburu.jpg?alt=media",
+        "storagePath": "destinations/samburu.jpg"
+      },
+      "tagline": "Arid beauty and the Samburu Special Five",
+      "themes": [
+        "wildlife",
+        "culture",
+        "adventure"
+      ],
+      "activities": [
+        "River Game Drives",
+        "Samburu Village Visits",
+        "Bird Watching",
+        "Bush Walking"
+      ],
+      "region": "Northern",
+      "knownFor": [
+        "Samburu Special Five",
+        "Ewaso Ng'iro River",
+        "Samburu Culture",
+        "Leopard Spotting"
+      ],
+      "updatedAt": "2026-10-05T21:21:27.107Z",
+      "countySlugs": [
+        "samburu"
+      ],
+      "signatureExperience": "Encountering the rare Grevy's zebra and reticulated giraffe along the riverbank",
+      "wildlife": [
+        "Grevy's Zebra",
+        "Reticulated Giraffe",
+        "Beisa Oryx",
+        "Gerenuk",
+        "Somali Ostrich",
+        "Leopard"
+      ],
+      "summary": "A rugged, dramatic northern landscape intersected by the Ewaso Ng'iro river, home to species found nowhere else in southern Kenya."
+    },
+    "shaba": {
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/destinations%2Fshaba.jpg?alt=media",
+        "alt": "shaba Kenya destination photography",
+        "storagePath": "destinations/shaba.jpg"
+      },
+      "updatedAt": "2026-10-05T21:21:27.517Z",
+      "slug": "shaba"
+    },
+    "shimba-hills": {
+      "slug": "shimba-hills",
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/destinations%2Fshimba-hills.jpg?alt=media",
+        "alt": "shimba hills Kenya destination photography",
+        "storagePath": "destinations/shimba-hills.jpg"
+      },
+      "updatedAt": "2026-10-05T21:21:31.203Z"
+    },
+    "sibiloi": {
+      "slug": "sibiloi",
+      "updatedAt": "2026-10-05T21:21:34.685Z",
+      "image": {
+        "storagePath": "destinations/sibiloi.jpg",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/destinations%2Fsibiloi.jpg?alt=media",
+        "alt": "sibiloi Kenya destination photography"
+      }
+    },
+    "tsavo-east": {
+      "slug": "tsavo-east",
+      "updatedAt": "2026-10-05T21:21:26.186Z",
+      "image": {
+        "storagePath": "destinations/tsavo-east.jpg",
+        "alt": "tsavo east Kenya destination photography",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/destinations%2Ftsavo-east.jpg?alt=media"
+      }
+    },
+    "tsavo-west": {
+      "themes": [
+        "wildlife",
+        "adventure",
+        "conservation"
+      ],
+      "knownFor": [
+        "Mzima Springs",
+        "Shetani Lava Flow",
+        "Ngulia Rhino Sanctuary",
+        "Red Elephants"
+      ],
+      "region": "Coast / Southern",
+      "image": {
+        "storagePath": "destinations/tsavo-west.jpg",
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/destinations%2Ftsavo-west.jpg?alt=media",
+        "alt": "tsavo west Kenya destination photography"
+      },
+      "wildlife": [
+        "Elephant",
+        "Black Rhino",
+        "Hippo",
+        "Crocodile",
+        "Lion",
+        "Leopard"
+      ],
+      "summary": "A dramatic volcanic landscape of ancient lava flows, emerald Mzima Springs, and lush rhino sanctuaries.",
+      "signatureExperience": "Watching hippos swim underwater from the submerged hide at Mzima Springs",
+      "bestTime": "June to October and January to February.",
+      "slug": "tsavo-west",
+      "name": "Tsavo West National Park",
+      "updatedAt": "2026-10-05T21:21:26.595Z",
+      "countySlugs": [
+        "taita-taveta"
+      ],
+      "tagline": "Land of lava springs and red dust tuskers",
+      "activities": [
+        "Mzima Springs Nature Walk",
+        "Lava Field Exploration",
+        "Game Drives",
+        "Rock Climbing"
+      ],
+      "type": "national-park"
+    },
+    "watamu": {
+      "slug": "watamu",
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/destinations%2Fwatamu.jpg?alt=media",
+        "alt": "watamu Kenya destination photography",
+        "storagePath": "destinations/watamu.jpg"
+      },
+      "updatedAt": "2026-10-05T21:21:31.880Z"
+    }
+  },
+  "counties": {},
+  "accommodations": {},
+  "promotions": {}
+}

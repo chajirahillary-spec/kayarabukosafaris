@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 60" fill="none">
+  <!-- KWS Conservation Crest (Plain, No Outer Box or Border) -->
+  <g transform="translate(4, 5)">
+    <path d="M25 3L44 10V25C44 37 35 45 25 48C15 45 6 37 6 25V10L25 3Z" fill="#165B3A"/>
+    <path d="M16 33C14 25 17 17 25 15C33 17 36 25 34 33" stroke="#FAF6EE" stroke-width="2.2" stroke-linecap="round"/>
+    <circle cx="25" cy="24" r="5" fill="#C89B3C"/>
+    <path d="M19 36H31" stroke="#E0B85A" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+  <!-- Typography -->
+  <text x="60" y="23" fill="#FAF6EE" font-family="Arial, Helvetica, sans-serif" font-size="19.5" font-weight="900" letter-spacing="0.16em">KWS</text>
+  <text x="60" y="38" fill="#E0B85A" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" font-weight="bold" letter-spacing="0.08em">KENYA WILDLIFE SERVICE</text>
+  <text x="60" y="51" fill="#D5CBB8" font-family="Arial, Helvetica, sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.14em">PARKS &amp; CONSERVATION STEWARD</text>
+</svg>

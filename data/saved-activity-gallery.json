@@ -1,0 +1,139 @@
+{
+  "items": [
+    {
+      "id": "act-wildlife-safari",
+      "title": "Real Safari Animals — Tsavo Red Elephants, Lions & Giraffes",
+      "location": "Tsavo East, Tsavo West & Amboseli National Parks",
+      "category": "Real Safari Wildlife & Animals",
+      "caption": "Authentic wildlife moments captured on our multi-day 4x4 game drives — herds of red-dusted Tsavo elephants, lions on the savannah, and giraffes beneath Mount Kilimanjaro.",
+      "featuredSpan": true,
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fconservation.theme.wildlife-and-ecosystems_1795105274665_343f1a78-ad84-4b02-b414-9f4d573d3755.jpg?alt=media&token=d6cc5cde-ebe5-45d2-af1b-8e15cc31a38a",
+        "alt": "Real safari animals taken on a KayArabuko wildlife safari in Kenya"
+      }
+    },
+    {
+      "id": "act-watamu-villas",
+      "title": "Kid-Friendly Family Villas with Kids' Pools & Nannies On Call",
+      "location": "Watamu, Turtle Bay & Malindi Coast",
+      "category": "Family & Kid-Friendly Stays",
+      "caption": "Family packages in handpicked kid-friendly accommodations featuring shallow kids' swimming pools, tropical gardens, and trusted caregivers & nannies on call.",
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Faccommodation.private-villas_1795025518300_6b0992dd-bc9c-4057-b8aa-c96bbd0e4f08.avif?alt=media&token=fda2f154-c994-44b0-9857-12b89251a14a",
+        "alt": "Kid-friendly coastal villa with kids' swimming pool and nanny service in Watamu"
+      }
+    },
+    {
+      "id": "act-mambrui-quad-bikes",
+      "title": "Quad Bike Riders on the Mambrui Golden Sand Dunes",
+      "location": "Mambrui Sand Dunes (North of Malindi)",
+      "category": "Mambrui Quad Bikes & Hell's Kitchen",
+      "caption": "Guests riding quad bikes across the dramatic golden coastal sand dunes of Mambrui overlooking the Indian Ocean.",
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fexcursion.mambrui-sand-dunes-quad-bikes_1795101902171_images__5_.jpg?alt=media&token=a974f738-3999-4d55-a09a-91d7ba4c889d",
+        "alt": "Guests on quad bikes at Mambrui Sand Dunes on the Kenyan Coast"
+      }
+    },
+    {
+      "id": "act-safari-blue-dhow",
+      "title": "Safari Blue Glass-Bottom Boat — Viewing Fish, Snorkelling & Dolphins",
+      "location": "Watamu Marine National Park & Mida Creek",
+      "category": "Safari Blue Glass-Bottom Boat & Dolphins",
+      "caption": "Cruising aboard our Safari Blue glass-bottom boat for underwater reef fish viewing, guided coral garden snorkelling, spotting wild dolphins, and a sandbank seafood lunch.",
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fexcursion.safari-blue-marine-excursion_1795026051266_images__4_.jpg?alt=media&token=0fa330c2-a96a-4238-9162-f9a5c4a51f35",
+        "alt": "Safari Blue glass-bottom boat for viewing fish, snorkelling and seeing dolphins in Watamu"
+      }
+    },
+    {
+      "id": "act-rift-valley-safari",
+      "title": "Lake Nakuru Safari — Rhinos, Flamingos & Rift Valley Wildlife",
+      "location": "Lake Nakuru National Park & Great Rift Valley",
+      "category": "Real Safari Wildlife & Animals",
+      "caption": "Real safari animal sightings at Lake Nakuru — white and black rhinos, Rothschild's giraffes, pelicans and flamingos along the alkaline lake shore.",
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fregion.rift-valley_1794439729393.jpeg?alt=media&token=937040bf-2cf3-4fc3-bc87-da11acc37990",
+        "alt": "Real wildlife sightings at Lake Nakuru National Park on safari"
+      }
+    },
+    {
+      "id": "act-marafa-hells-kitchen",
+      "title": "Marafa Hell's Kitchen (Nyari) Crimson Sunset Gorge",
+      "location": "Marafa Depression, Near Malindi & Watamu",
+      "category": "Mambrui Quad Bikes & Hell's Kitchen",
+      "caption": "Exploring the towering crimson, terracotta and gold sandstone spires of Marafa Hell's Kitchen at sunset with local Giriama guides.",
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fexcursion.marafa-hells-kitchen-canyon_1795101991073_hell-s-kitchen-marafa.jpg?alt=media&token=3ae12817-fe6a-4a9a-9b20-4e3c46c2af0d",
+        "alt": "Marafa Hell's Kitchen sandstone canyon excursion at sunset"
+      }
+    },
+    {
+      "id": "act-gede-ruins",
+      "title": "Past Guests at Gede Ruins 12th-Century Swahili Stone Town",
+      "location": "Gede Ruins National Monument, Near Watamu",
+      "category": "Past Guests & Cultural Memories",
+      "caption": "Walking with international and local guests through the ancient coral-stone palaces, Great Mosque and sacred forest trails of Gede Ruins.",
+      "featuredSpan": true,
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fexcursion.gede-ruins-heritage-excursion_1795025996154_images__3_.jpg?alt=media&token=9b310a12-aa33-4729-977e-66ccbf0b4aeb",
+        "alt": "Past guests exploring Gede Ruins historical excursion near Watamu"
+      }
+    },
+    {
+      "id": "act-kid-friendly-resorts",
+      "title": "Family Beach Resorts with Kids' Pools & Dedicated Caregivers",
+      "location": "Watamu Beach, Malindi & Diani Coast",
+      "category": "Family & Kid-Friendly Stays",
+      "caption": "Relaxed family stays with shallow children's pools, family suites, and attentive nannies on call so parents and kids both enjoy an unforgettable coastal holiday.",
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Faccommodation.hotels-and-beach-resorts_1795025652015_images__1_.jpg?alt=media&token=b2b10146-5ca5-4849-bacf-9f61a47ec697",
+        "alt": "Family beach resort with kids pool and caregivers on call in Watamu"
+      }
+    },
+    {
+      "id": "act-mida-mangrove-boat",
+      "title": "Mida Creek Mangrove Boat Rides & Sunset Dhow Cruises",
+      "location": "Mida Creek, Watamu",
+      "category": "Safari Blue Glass-Bottom Boat & Dolphins",
+      "caption": "Peaceful boat and canoe rides winding through ancient emerald mangrove channels and tidal waterways at Mida Creek.",
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fexcursion.mida-creek-mangrove-boat-rides_1795025949660_nairobi-mida-creek-mangrove-kayaking-tour-7288963.webp?alt=media&token=d8dd6712-3a52-4763-97b2-ab34df5b74dd",
+        "alt": "Boat ride among the mangrove forests of Mida Creek"
+      }
+    },
+    {
+      "id": "act-northern-safari",
+      "title": "Amboseli, Samburu & Conservancy Wildlife Encounters",
+      "location": "Amboseli, Taita Hills & Northern Rangelands",
+      "category": "Real Safari Wildlife & Animals",
+      "caption": "Real safari photography of elephants, zebras, antelopes and predators across Kenya's premier national parks and wildlife conservancies.",
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fecosystem.community-conservancies_1794439724074.jpeg?alt=media&token=19408ed4-48f0-4fca-8eb7-6b2e6cc3ca7c",
+        "alt": "Real animals photographed on a KayArabuko wildlife safari"
+      }
+    },
+    {
+      "id": "act-arabuko-walk",
+      "title": "Arabuko-Sokoke Forest Walks, Kipepeo Butterflies & Mida Boardwalk",
+      "location": "Arabuko-Sokoke Forest & Mida Creek, Watamu",
+      "category": "Past Guests & Cultural Memories",
+      "caption": "Guided forest walks beneath East Africa's largest coastal dry forest, crossing the suspended Mida Creek boardwalk, and meeting local conservationists.",
+      "image": {
+        "src": "https://firebasestorage.googleapis.com/v0/b/legaprimed.firebasestorage.app/o/kayarabuko_website%2Fexcursion.mida-creek-boardwalk-experience_1795025885796_41062989e1f19fadceb340f0d9ac91a9616481622e106e9b9c0f4358b56617cf.avif?alt=media&token=c25bd6cd-8d55-433b-9850-2860b7ae7910",
+        "alt": "Guided walk in Arabuko-Sokoke Forest and Mida Creek Boardwalk"
+      }
+    },
+    {
+      "id": "act-cultural-homestead",
+      "title": "Community Cultural Visits & Kaya Roots Africa Field Tours",
+      "location": "Watamu, Nakuru, Nyanza & Kenyan Coast",
+      "category": "Past Guests & Cultural Memories",
+      "caption": "Dignified, host-led cultural visits and grassroots farmer empowerment tours with Mrisa and Co-Founder Dr. Milcah Wambua.",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1544717302-de2939b7ef71?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Past guests during a community cultural homestead visit in Kenya"
+      }
+    }
+  ],
+  "updatedAt": "2026-11-19T17:17:50.561Z"
+}
