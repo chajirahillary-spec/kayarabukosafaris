@@ -25,7 +25,7 @@ export const site = {
     "Managed by Kaya Experience Ltd (Watamu, Timboni Stage) — preserving the stories, cultures, indigenous livelihoods and natural heritage that make Kenya extraordinary.",
   finalPhilosophy:
     "Discover the stories. Preserve the heritage. Empower the communities.",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://kayarabuko.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.kayarabukosafaris.com",
   contact: {
     phone:
       process.env.NEXT_PUBLIC_CONTACT_PHONE ??
