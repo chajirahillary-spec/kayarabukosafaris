@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
+import { put } from "@vercel/blob";
 import { getFirebaseStorage } from "@/lib/firebase/client";
 import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import { DEFAULT_ORG_ID, firebaseConfig } from "@/lib/firebase/config";
@@ -109,10 +110,6 @@ async function uploadDataUrlToStorage(
   dataUrl: string,
   slotKey: string
 ): Promise<string> {
-  const storage = getFirebaseStorage();
-  if (!storage) {
-    throw new Error("Firebase Storage not initialized.");
-  }
   const match = dataUrl.match(/^data:(image\/[a-zA-Z0-9+.-]+);base64,(.+)$/);
   if (!match) {
     throw new Error("Invalid data:image base64 format.");
@@ -123,6 +120,19 @@ async function uploadDataUrlToStorage(
   const ext = mimeType.split("/")[1]?.replace(/[^a-z0-9]/gi, "") || "jpg";
   const safeKey = slotKey.replace(/[^a-zA-Z0-9._-]/g, "_");
   const storagePath = `kayarabuko_website/${safeKey}_${Date.now()}.${ext}`;
+
+  if (process.env.BLOB_READ_WRITE_TOKEN) {
+    const blob = await put(storagePath, buffer, {
+      access: "public",
+      contentType: mimeType,
+    });
+    return blob.url;
+  }
+
+  const storage = getFirebaseStorage();
+  if (!storage) {
+    throw new Error("Neither Vercel Blob nor Firebase Storage is initialized.");
+  }
   const storageRef = ref(storage, storagePath);
 
   await uploadBytes(storageRef, buffer, { contentType: mimeType });

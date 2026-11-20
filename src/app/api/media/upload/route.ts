@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
+import { put } from "@vercel/blob";
 import { getFirebaseStorage } from "@/lib/firebase/client";
 import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import { DEFAULT_ORG_ID, firebaseConfig } from "@/lib/firebase/config";
@@ -79,20 +80,38 @@ async function persistSlotToFirestore(allOverrides: Record<string, string>) {
   }
 }
 
+async function uploadBufferToStorage(
+  storagePath: string,
+  buffer: Uint8Array | Buffer,
+  mimeType: string
+): Promise<string> {
+  // 1. Prioritize Vercel Blob if token is set
+  if (process.env.BLOB_READ_WRITE_TOKEN) {
+    const bodyBuffer = Buffer.isBuffer(buffer) ? buffer : Buffer.from(buffer);
+    const blob = await put(storagePath, bodyBuffer, {
+      access: "public",
+      contentType: mimeType,
+    });
+    return blob.url;
+  }
+
+  // 2. Fallback to Firebase Storage
+  const storage = getFirebaseStorage();
+  if (storage) {
+    const storageRef = ref(storage, storagePath);
+    await uploadBytes(storageRef, buffer, { contentType: mimeType });
+    return await getDownloadURL(storageRef);
+  }
+
+  throw new Error("No media storage provider available (neither Vercel Blob nor Firebase Storage).");
+}
+
 export async function POST(req: Request) {
   const authErr = verifyAdminApiRequest(req);
   if (authErr) return authErr;
 
   try {
     const contentTypeHeader = req.headers.get("content-type") || "";
-    const storage = getFirebaseStorage();
-
-    if (!storage) {
-      return NextResponse.json(
-        { error: "Media upload service is temporarily unavailable." },
-        { status: 500 }
-      );
-    }
 
     // Case 1: Multipart FormData file upload from "Upload Photo" button
     if (contentTypeHeader.includes("multipart/form-data")) {
@@ -117,10 +136,7 @@ export async function POST(req: Request) {
         : `${safeSlotKey}.${ext}`;
 
       const storagePath = `kayarabuko_website/${safeSlotKey}_${Date.now()}_${safeName}`;
-      const storageRef = ref(storage, storagePath);
-
-      await uploadBytes(storageRef, buffer, { contentType: mimeType });
-      const downloadUrl = await getDownloadURL(storageRef);
+      const downloadUrl = await uploadBufferToStorage(storagePath, buffer, mimeType);
 
       const allOverrides = persistSlotOverrideToDisk(rawSlotKey, downloadUrl);
       await persistSlotToFirestore(allOverrides);
@@ -132,7 +148,7 @@ export async function POST(req: Request) {
       });
     }
 
-    // Case 2: JSON body with { sourceUrl, slotKey } — fetches remote or data: URL & uploads to Firebase Storage
+    // Case 2: JSON body with { sourceUrl, slotKey } — fetches remote or data: URL & uploads
     const body = await req.json();
     const sourceUrl = String(body.sourceUrl || "").trim();
     const rawSlotKey = String(body.slotKey || "image");
@@ -145,10 +161,11 @@ export async function POST(req: Request) {
       );
     }
 
-    // If already hosted on our Firebase Storage bucket, persist & return
+    // If already hosted on Vercel Blob or Firebase Storage, persist & return
     if (
-      sourceUrl.includes("firebasestorage.googleapis.com") &&
-      sourceUrl.includes("legaprimed.firebasestorage.app")
+      sourceUrl.includes("blob.vercel-storage.com") ||
+      (sourceUrl.includes("firebasestorage.googleapis.com") &&
+        sourceUrl.includes("legaprimed.firebasestorage.app"))
     ) {
       const allOverrides = persistSlotOverrideToDisk(rawSlotKey, sourceUrl);
       await persistSlotToFirestore(allOverrides);
@@ -175,11 +192,8 @@ export async function POST(req: Request) {
       const buffer = Buffer.from(base64Data, "base64");
       const ext = mimeType.split("/")[1]?.replace(/[^a-z0-9]/gi, "") || "jpg";
       const storagePath = `kayarabuko_website/${safeSlotKey}_${Date.now()}.${ext}`;
-      const storageRef = ref(storage, storagePath);
 
-      await uploadBytes(storageRef, buffer, { contentType: mimeType });
-      const downloadUrl = await getDownloadURL(storageRef);
-
+      const downloadUrl = await uploadBufferToStorage(storagePath, buffer, mimeType);
       const allOverrides = persistSlotOverrideToDisk(rawSlotKey, downloadUrl);
       await persistSlotToFirestore(allOverrides);
 
@@ -212,10 +226,8 @@ export async function POST(req: Request) {
     const buffer = new Uint8Array(arrayBuffer);
     const ext = mimeType.split("/")[1]?.replace(/[^a-z0-9]/gi, "") || "jpg";
     const storagePath = `kayarabuko_website/${safeSlotKey}_${Date.now()}.${ext}`;
-    const storageRef = ref(storage, storagePath);
 
-    await uploadBytes(storageRef, buffer, { contentType: mimeType });
-    const downloadUrl = await getDownloadURL(storageRef);
+    const downloadUrl = await uploadBufferToStorage(storagePath, buffer, mimeType);
 
     const allOverrides = persistSlotOverrideToDisk(rawSlotKey, downloadUrl);
     await persistSlotToFirestore(allOverrides);
@@ -229,7 +241,7 @@ export async function POST(req: Request) {
     const message =
       err instanceof Error
         ? err.message
-        : "Failed to upload image to Firebase Storage.";
+        : "Failed to upload image to storage.";
     return NextResponse.json({ error: message }, { status: 500 });
   }
 }

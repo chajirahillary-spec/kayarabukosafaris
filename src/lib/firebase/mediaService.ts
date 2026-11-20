@@ -359,8 +359,9 @@ export function getInitialFirebaseStorageLibrary(): StorageLibraryImage[] {
 export function isFirebaseStorageUrl(url: string | undefined): boolean {
   if (!url) return false;
   return (
-    url.includes("firebasestorage.googleapis.com") &&
-    url.includes("legaprimed.firebasestorage.app")
+    url.includes("blob.vercel-storage.com") ||
+    (url.includes("firebasestorage.googleapis.com") &&
+      url.includes("legaprimed.firebasestorage.app"))
   );
 }
 
